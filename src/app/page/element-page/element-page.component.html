@@ -1,0 +1,6 @@
+<div class="text-gray-800 grid grid-cols-4 gap-4" *ngIf="pokemonList">
+    {{ pokemonList.count }}
+    <div class="border shadow rounded-md p-4" *ngFor="let item of pokemonList.results">
+      {{ item.name }}
+    </div>
+</div>
