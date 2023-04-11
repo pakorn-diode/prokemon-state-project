@@ -8,13 +8,11 @@ export class PageRouting {
             { 
                 path: '',
                 component: HomePageComponent,
-                children: [
-                    {
-                        path: 'element',
-                        component: ElementPageComponent
-                        // loadComponent: () => import('./element-page/element-page.component').then((c) => c.ElementPageComponent)
-                    },
-                ]
+            },
+            {
+                path: 'element',
+                component: ElementPageComponent
+                // loadComponent: () => import('./element-page/element-page.component').then((c) => c.ElementPageComponent)
             },
         ];
     }
