@@ -11,10 +11,6 @@ export class AsideNavComponent implements OnInit {
 
   constructor() { }
 
-  protected clickAside(): void {
-    this.aside = !this.aside;
-  }
-
   ngOnInit(): void {
   }
 

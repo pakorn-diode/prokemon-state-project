@@ -1,8 +1,22 @@
-<div *ngIf="aside" class="flex">
-    <div class="rounded-full p-3 border shadow-sm cursor-pointer" (click)="clickAside()">
-        >>>
-    </div>
-</div>
-<div class="border-r p-3 shadow h-screen fixed w-1/5 z-40 -left-full {{animation}}">
-    <label class="text-xl uppercase">pokemon club</label>
-</div>
+<label for="menu" class="rounded-full p-3 border shadow-sm cursor-pointer absolute right-3 top-3">
+    >>>
+</label>
+<input type="checkbox" name="menu" id="menu">
+<aside class="aside-menu border-r p-3 shadow">
+  <noscript>
+    <label for="menu">
+      <span>pokemon club</span>
+    </label>
+  </noscript>
+  <ul>
+    <li>
+      <a href="#">Item menu</a>
+    </li>
+    <li>
+      <a href="#">Item menu</a>
+    </li>
+    <li>
+      <a href="#">Item menu</a>
+    </li>
+  </ul>
+</aside>
