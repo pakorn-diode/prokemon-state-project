@@ -1,0 +1,55 @@
+.pic-side-1{
+    position: absolute;
+    transition: top 0.25s ease-in-out;
+    top: -100%;
+    height:100%;
+    width: 33.333333%;
+    opacity: 50%;
+    background-color: black;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1626197031507-c17099753214?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzR8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60");
+}
+.pic-side-2{
+    position: absolute;
+    transition: top 0.25s ease-in-out;
+    top: -100%;
+    left: 33.333333%;;
+    height:100%;
+    width: 33.333333%;
+    opacity: 50%;
+    background-color: black;
+}
+.pic-side-3{
+    position: absolute;
+    transition: top 0.25s ease-in-out;
+    top: -100%;
+    left: 66.6666666%;
+    height:100%;
+    width: 33.333333%;
+    opacity: 50%;
+    background-color: black;
+}
+#pic1:hover + #pic1_1{
+    top: 0;
+}
+#pic1_1:hover{
+    top: 0;
+}
+#pic2:hover + #pic2_2{
+    top: 0;
+    left: 33.333333%;
+}
+#pic2_2:hover{
+    top: 0;
+    left: 33.333333%;
+}
+#pic3:hover + #pic3_3{
+    top: 0;
+    left: 66.6666666%;
+}
+#pic3_3:hover{
+    top: 0;
+    left: 66.6666666%;
+}

@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { PageRouting } from './page.routing';
 import { AsideNavComponent } from '../components/aside-nav/aside-nav.component';
 import { FooterComponent } from '../components/footer/footer.component';
+import { HeaderComponent } from '../components/header/header.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { FooterComponent } from '../components/footer/footer.component';
     HomePageComponent,
     ElementPageComponent,
     AsideNavComponent,
+    HeaderComponent,
     FooterComponent
   ],
   imports: [
