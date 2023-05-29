@@ -1,55 +1,49 @@
-.pic-side-1{
-    position: absolute;
-    transition: top 0.25s ease-in-out;
-    top: -100%;
-    height:100%;
-    width: 33.333333%;
-    opacity: 50%;
+.hero{
+    height:100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: black;
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1626197031507-c17099753214?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzR8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60");
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.126)), url("../../../assets/WhatsApp\ Images/IMG-20230526-WA0025.jpg");
 }
-.pic-side-2{
+.hero-text {
     position: absolute;
-    transition: top 0.25s ease-in-out;
-    top: -100%;
-    left: 33.333333%;;
-    height:100%;
-    width: 33.333333%;
-    opacity: 50%;
-    background-color: black;
+    top: 20%;
+    left: 20%;
+    width: auto;
+    max-width: 40%;
+    // background: linear-gradient(#00000017, #000000bd);
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: all 0.8s ease;
 }
-.pic-side-3{
-    position: absolute;
-    transition: top 0.25s ease-in-out;
-    top: -100%;
-    left: 66.6666666%;
-    height:100%;
-    width: 33.333333%;
-    opacity: 50%;
-    background-color: black;
+
+.hero-text:hover{
+    color: #d19a3b;
 }
-#pic1:hover + #pic1_1{
-    top: 0;
+
+.hidden-text{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-10%);
+    transition: all 1s;
 }
-#pic1_1:hover{
-    top: 0;
+.show-text{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
-#pic2:hover + #pic2_2{
-    top: 0;
-    left: 33.333333%;
+.hidden-img{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(50%);
+    transition: all 1s;
 }
-#pic2_2:hover{
-    top: 0;
-    left: 33.333333%;
-}
-#pic3:hover + #pic3_3{
-    top: 0;
-    left: 66.6666666%;
-}
-#pic3_3:hover{
-    top: 0;
-    left: 66.6666666%;
+.show-img{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
