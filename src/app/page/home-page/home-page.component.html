@@ -1,30 +1,70 @@
 <app-header></app-header>
 <!-- <router-outlet></router-outlet> -->
-<div class="z-30 absolute top-0 left-[15%] h-[100vh] w-[1px] px-[1px] bg-[#d19a3b]"></div>
-<div class="hero">
-    <div class="hero-text text-white hidden-text">
-        <ngx-typed-js class="text-6xl" [strings]="words" [shuffle]="false" [typeSpeed]="100" [backSpeed]="50" [loop]="true" [cursorColor]="'#d19a3b'">
-            <label class="text-6xl typing"> </label>
+<div class="relative h-[100vh] lg:h-[100vh] bg-black w-full top-0">
+    <div class="z-30 absolute top-0 left-[15%] h-[100%] w-[0.5px] bg-[#dddddd]"></div>
+    <div class="absolute text-white text-xl hidden-text top-[20%] left-[20%] max-w-[60%] lg:max-w-[40%] xl:max-w-[65%] lg:text-4xl xl:text-7xl">
+        <ngx-typed-js [strings]="words" [shuffle]="false" [typeSpeed]="100" [backSpeed]="50" [loop]="true" [cursorColor]="'#d19a3b'">
+            <label class="typing text-[#d19a3b] font-semibold"> </label>
         </ngx-typed-js>
-        <div class="mt-4 text-2xl text-gray-300">
-            <!-- <label>เว็บไซต์นี้จัดทำขึ้นเพื่อเป็นที่ละรึกถึงความทรงจำในช่วงปี 2023 ที่ผ่านมา ให้กับคนในคลาสโยคะของคุณครู Tinker JingleBelle</label> -->
+        <div class="mt-4 text-sm text-gray-300 lg:text-xl xl:text-2xl max-w-[60%] lg:max-w-[100%]">
             <label>Made to commemorate the year 2023, don't forget to give everyone in your yoga class, Be happy with what you get and the happy time continues.</label>
         </div>
     </div>
-    <div class="relative top-[55%] left-[25%] grid grid-cols-3 gap-2 items-center w-7/12 h-60">
-        <div class="transition-all duration-200">
-            <img class="hidden-img rounded-lg w-full max-h-60" src="../../../assets/WhatsApp Images/IMG-20230526-WA0030.jpg"/>
+    <div class="relative top-[42%] lg:top-[55%] left-[25%] grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-2 items-center w-7/12 lg:h-44 xl:h-80">
+        <div class="logo hidden-img ">
+            <img class="rounded-lg w-full max-h-40 md:max-h-full lg:max-h-44 xl:max-h-80" src="../../../assets/WhatsApp Images/IMG-20230526-WA0030.jpg"/>
         </div>
-        <div class="transition-all duration-500">
-            <img class="hidden-img rounded-lg w-full max-h-60" src="../../../assets/WhatsApp Images/IMG-20230526-WA0025.jpg"/>
+        <div class="logo hidden-img md:hidden lg:flex">
+            <img class="rounded-lg w-full max-h-40 lg:max-h-44 xl:max-h-80" src="../../../assets/WhatsApp Images/IMG-20230526-WA0025.jpg"/>
         </div>
-        <div class="transition-all duration-700">
-            <img class="hidden-img rounded-lg w-full max-h-60" src="../../../assets/WhatsApp Images/IMG-20230527-WA0054.jpg"/>
+        <div class="logo hidden-img lg:flex sm:hidden">
+            <img class="rounded-lg w-full max-h-40 lg:max-h-44 xl:max-h-80" src="../../../assets/WhatsApp Images/IMG-20230527-WA0054.jpg"/>
         </div>
-        <div class=" absolute top-[105%] right-0 w-[100%] h-[1px] px-[1px] bg-[#d19a3b]"></div>
-        <div class=" absolute top-[110%] right-0 w-[80%] h-[1px] px-[1px] bg-[#d19a3b]"></div>
+        <div class="absolute bottom-[0%] right-0 w-[100%] h-[0.5px] bg-[#dddddd]"></div>
+        <div class="absolute bottom-[-5%] right-0 w-[80%] h-[0.5px] bg-[#dddddd]"></div>
     </div>
+    <div class="absolute p-2 top-[15%] left-[15%] bg-[#d19a3b]"></div>
+    <div class="absolute p-2 top-[35%] left-[15%] bg-[#d19a3b]"></div>
+    <div class="absolute p-2 top-[55%] left-[15%] bg-[#d19a3b]"></div>
+    <div class="absolute p-2 top-[75%] left-[15%] bg-[#d19a3b]"></div>
+    <div class="z-30 absolute top-0 right-[15%] h-[100%] w-[1px] px-[1px] bg-[#d19a3b]"></div>
 </div>
-<div class="z-30 absolute top-0 right-[15%] h-[100vh] w-[1px] px-[1px] bg-[#d19a3b]"></div>
+<div class="relative h-[75vh] max-w-full bg-white">
+    <div class="z-30 absolute bottom-0 left-[15%] h-[100%] w-[0.5px] bg-[#dddddd]"></div>
+    <div class="hidden lg:grid">
+        <label class="absolute text-gray-200/60 lg:text-[12rem] xl:text-[20rem] left-[10%] lg:top-[-5%] xl:top-[-10%] font-semibold ">YOGA</label>
+        <label class="absolute text-white lg:text-[12rem] xl:text-[20rem] left-[10%] lg:top-[-5%] xl:top-[-10%]">YOGA</label>
+    </div>
+    <div class="absolute left-[15%] top-[8%] text-[#0f1923] h-full w-[80%] hidden-textY">
+        <div class="text-4xl left-[15%] font-semibold">
+            <em class="bx bx-git-commit mr-2 text-[#d19a3b]"></em>
+            <label>TIMELINE</label>
+        </div>
+        <div class="absolute w-[50%] text-xl left-[3%] p-2 hidden-textY">
+            <label>
+                <label class="text-[#d19a3b]">Showcasing the beautiful moments that members of the yoga class spend </label>
+                span>together at various times. To venture out and have fun in the world using the language of youth.
+            </label>
+            <div class="grid grid-cols-5 mt-[20%]">
+                <button class="z-10 col-span-5 lg:col-start-3 lg:col-span-3 py-2 px-6 font-semibold button">CHECK TIMELINE</button>
+                <div class="absolute w-[63%] border py-8 bottom-[-1%] right-[-1%]"></div>
+                <div class="absolute w-[65%] p-2 bottom-[8%] right-[-2%] bg-white"></div>
+            </div>
+        </div>
+    </div>
+    <div class="absolute top-[2%] right-[10%] w-[20%]">
+        <label class="absolute top-[5%] left-[-3%] bg-[#d19a3b] py-1 px-5 text-xl font-semibold">Bacardi</label>
+        <video class="rounded-[2rem] w-full shadow-xl" [muted]="'muted'" loop autoplay>
+            <source src="../../../assets/WhatsApp Video/VID-20230527-WA0031.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="z-30 absolute top-0 right-[15%] h-[100%] w-[1px] px-[1px] bg-[#d19a3b]"></div>
+</div>
+<div class="relative h-[100vh] max-w-full bg-[#d19a3b]">
+    <div class="z-30 absolute bottom-0 left-[15%] h-[100%] w-[0.5px] bg-[#dddddd]"></div>
+    <img class="rounded-lg w-auto h-96" src="../../../assets/WhatsApp Images/Untitled-video-Made-with-Clipc-unscreen.gif"/>
+    <div class="z-30 absolute top-0 right-[15%] h-[100%] w-[1px] px-[1px] bg-[#dddddd]"></div>
+</div>
 <app-news></app-news>
 <!-- <app-footer></app-footer> -->

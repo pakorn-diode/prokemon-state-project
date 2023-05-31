@@ -9,13 +9,13 @@ export class HomePageComponent implements OnInit {
 
   public words: string[] = [
     'Happy News Year 2024 To Yoga Class.',
-    'Hello Tinker JingleBelle.',
-    'Hello Navjeet Singh.',
-    'Hello Jasmeet.',
-    'Hello Mary Nanthicha.',
-    'Hello Nancy Chawla Nan.',
-    'Hello _stampph.',
-    'Hello pakorndiode.'
+    // 'Hello Tinker JingleBelle.',
+    // 'Hello Navjeet Singh.',
+    // 'Hello Jasmeet.',
+    // 'Hello Mary Nanthicha.',
+    // 'Hello Nancy Chawla Nan.',
+    // 'Hello _stampph.',
+    // 'Hello pakorndiode.'
   ]
   constructor() { }
 
@@ -51,10 +51,27 @@ export class HomePageComponent implements OnInit {
     hiddenImage.forEach((el) => imageObserver.observe(el));
   }
 
+  public textYObserver(): void {
+    const  observer = new IntersectionObserver((entries)=>{
+      entries.forEach((entry)=>{
+        // console.log('GG ::::',entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show-textY')
+        } else{
+          entry.target.classList.remove('show-textY')
+        }
+      });
+    });
+
+    const hiddenElement = document.querySelectorAll('.hidden-textY');
+    hiddenElement.forEach((el) => observer.observe(el));
+  }
+
 
   ngOnInit(): void {
     this.textObserver();
     this.imageObserver();
+    this.textYObserver();
   }
 
 }

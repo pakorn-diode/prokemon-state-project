@@ -1,30 +1,3 @@
-.hero{
-    height:100vh;
-    width: 100%;
-    position: relative;
-    top: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: black;
-    // background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.126)), url("../../../assets/WhatsApp\ Images/IMG-20230526-WA0025.jpg");
-}
-.hero-text {
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    width: auto;
-    max-width: 40%;
-    // background: linear-gradient(#00000017, #000000bd);
-    padding: 1rem;
-    border-radius: 2rem;
-    transition: all 0.8s ease;
-}
-
-.hero-text:hover{
-    color: #d19a3b;
-}
-
 .hidden-text{
     opacity: 0;
     filter: blur(5px);
@@ -39,11 +12,42 @@
 .hidden-img{
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(50%);
+    transform: translateX(-10%);
     transition: all 1s;
 }
 .show-img{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+.logo:nth-child(2){
+    transition-delay: 200ms;
+}
+.logo:nth-child(3){
+    transition-delay: 400ms;
+}
+.logo:nth-child(4){
+    transition-delay: 600ms;
+}
+
+.hidden-textY{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(50%);
+    transition: all 1s;
+}
+.show-textY{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+}
+.button {
+  background: linear-gradient(to right, #0f1923 50%, #d19a3b 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .4s ease-out;
+}
+.button:hover {
+  background-position: left bottom;
+  color:white
 }
