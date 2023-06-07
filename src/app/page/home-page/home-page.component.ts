@@ -1,5 +1,6 @@
 import { Component, OnInit, } from '@angular/core';
-
+import * as jsonData from '../../../assets/JSON/member.json';
+import { of } from 'rxjs';
 @Component({
   selector: 'app-home-page',
   templateUrl: './home-page.component.html',
@@ -7,15 +8,18 @@ import { Component, OnInit, } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
+  public dataList: any = new Array<any>;
+  public objectA: any;
   public words: string[] = [
     'Happy News Year 2024 To Yoga Class.',
-    // 'Hello Tinker JingleBelle.',
-    // 'Hello Navjeet Singh.',
-    // 'Hello Jasmeet.',
-    // 'Hello Mary Nanthicha.',
-    // 'Hello Nancy Chawla Nan.',
-    // 'Hello _stampph.',
-    // 'Hello pakorndiode.'
+    'Hello Jarwa.belle',
+    'Hello Navjeet Singh.',
+    'Hello Millymeet',
+    'Hello Marynanthicha',
+    'Hello Nancy Chawla Nan.',
+    'Hello _stampph.',
+    'Hello ohmm.prm.',
+    'Hello pakorndiode.'
   ]
   constructor() { }
 
@@ -72,6 +76,10 @@ export class HomePageComponent implements OnInit {
     this.textObserver();
     this.imageObserver();
     this.textYObserver();
+    this.objectA = jsonData;
+    console.log('TTTTTTT : ',this.objectA);
+    this.dataList = this.objectA.default;
+    console.log('BBBBB : ',this.dataList);
   }
 
 }
