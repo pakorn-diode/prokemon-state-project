@@ -1,7 +1,9 @@
 import { Routes } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ElementPageComponent } from './element-page/element-page.component';
-import { NewsComponent } from './news/news.component';
+import { EventComponent } from './event/event.component';
+import { MemberComponent } from './member/member.component';
+import { CollectionsComponent } from './collections/collections.component';
 
 export class PageRouting {
     public static routes(): Routes {
@@ -13,10 +15,6 @@ export class PageRouting {
                     {
                         path:'element',
                         component:ElementPageComponent
-                    },
-                    {
-                        path:'news',
-                        component:NewsComponent
                     }
                 ]
             },
@@ -25,6 +23,18 @@ export class PageRouting {
                 component: ElementPageComponent
                 // loadComponent: () => import('./element-page/element-page.component').then((c) => c.ElementPageComponent)
             },
+            {
+                path:'event',
+                component:EventComponent
+            },
+            {
+                path:'collections',
+                component:CollectionsComponent
+            },
+            {
+                path:'member',
+                component:MemberComponent
+            }
         ];
     }
 }

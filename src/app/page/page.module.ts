@@ -8,8 +8,10 @@ import { PageRouting } from './page.routing';
 import { AsideNavComponent } from '../components/aside-nav/aside-nav.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { HeaderComponent } from '../components/header/header.component';
-import { NewsComponent } from './news/news.component';
 import { NgxTypedJsModule } from 'ngx-typed-js';
+import { CollectionsComponent } from './collections/collections.component';
+import { EventComponent } from './event/event.component';
+import { MemberComponent } from './member/member.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { NgxTypedJsModule } from 'ngx-typed-js';
     AsideNavComponent,
     HeaderComponent,
     FooterComponent,
-    NewsComponent,
+    EventComponent,
+    MemberComponent,
+    CollectionsComponent,
   ],
   imports: [
     CommonModule,

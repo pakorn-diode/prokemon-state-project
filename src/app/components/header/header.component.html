@@ -1,25 +1,19 @@
-<!-- component -->
-<header class="header fixed top-0 bg-black shadow-md flex items-center justify-start px-8 py-2 z-40 w-full">
-    <!-- logo -->
-    <div class="font-semibold text-xl text-white  flex items-center cursor-pointer hover:text-[#d19a3b] duration-200 hover:-scale-x-100">
-        <img class="text-white w-10 h-auto" src="../../../assets/yoga.png" alt="fitness.png">
+<header class="header fixed top-0 bg-black shadow-md flex items-center justify-between px-8 py-2 z-40 w-full">
+    <div [routerLink]="['/']" class="font-semibold text-xl text-white  flex items-center cursor-pointer hover:text-[#d19a3b] duration-200 hover:-scale-x-100">
+        <img class="text-white w-10 h-auto" src="https://pakorn-diode.github.io/prokemon-state-project/assets/yoga.png" alt="fitness.png">
     </div>
-
-    <!-- navigation -->
     <nav class="nav font-normal text-lg text-white">
         <ul class="flex items-center">
-            <li class="p-4 border-b-2 border-[#d19a3b] border-opacity-0 hover:border-opacity-100 hover:text-[#d19a3b] duration-200 cursor-pointer">
-              <a href="">Time Line</a>
+            <li [routerLink]="['/event']" routerLinkActive="active" class="p-4 border-b-2 border-[#d19a3b] border-opacity-0 hover:border-opacity-100 hover:text-[#d19a3b] duration-200 cursor-pointer">
+              <span>Events</span>
             </li>
-            <li class="p-4 border-b-2 border-[#d19a3b] border-opacity-0 hover:border-opacity-100 hover:text-[#d19a3b] duration-200 cursor-pointer">
-              <a href="">Events</a>
+            <li [routerLink]="['/collections']" class="p-4 border-b-2 border-[#d19a3b] border-opacity-0 hover:border-opacity-100 hover:text-[#d19a3b] duration-200 cursor-pointer">
+              <span>Collections</span>
             </li>
-            <li class="p-4 border-b-2 border-[#d19a3b] border-opacity-0 hover:border-opacity-100 hover:text-[#d19a3b] duration-200 cursor-pointer">
-              <a href="">Collections</a>
-            </li>
-            <li class="p-4 border-b-2 border-[#d19a3b] border-opacity-0 hover:border-opacity-100 hover:text-[#d19a3b] duration-200 cursor-pointer">
-              <a href="">Member</a>
+            <li [routerLink]="['/member']" class="p-4 border-b-2 border-[#d19a3b] border-opacity-0 hover:border-opacity-100 hover:text-[#d19a3b] duration-200 cursor-pointer">
+              <span>Member</span>
             </li>
         </ul>
     </nav>
+    <div class="w-1"></div>
 </header>
