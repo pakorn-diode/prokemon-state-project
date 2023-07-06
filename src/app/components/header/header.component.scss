@@ -5,3 +5,43 @@
 .logo-active{
     border-bottom: 2px solid #d19a3b;
 }
+#btn-hamburger {
+  position: fixed;
+  right: 3px;
+  top: 3px;
+  border: none;
+  outline: 0;
+  background: transparent; // change color to your favorite here
+  border-radius: 5px;
+  padding: 0.6em;
+  cursor: pointer;
+  .line-1,
+  .line-2,
+  .line-3 {
+    width: 22px;
+    height: 2px;
+    background-color: yellow;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  &.animeOpenClose .line-1 {
+    -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+    transform: rotate(-45deg) translate(-5px, 4px);
+  }
+  &.animeOpenClose .line-2 {
+    opacity: 0;
+  }
+  &.animeOpenClose .line-3 {
+    -webkit-transform: rotate(45deg) translate(-4px, -4px);
+    transform: rotate(45deg) translate(-4px, -4px);
+  }
+}
+header {
+  transition: top 0.45s ease-in-out;
+}
+#menu {
+  display: none;
+}
+#menu:checked + header {
+  top: 0;
+}

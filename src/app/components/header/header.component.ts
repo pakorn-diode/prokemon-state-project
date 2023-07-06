@@ -9,6 +9,11 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  public menuFn():void {
+    const menuBtn = document.getElementById("btn-hamburger");
+    menuBtn?.classList.toggle("animeOpenClose")
+  }
+
   ngOnInit(): void {
   }
 

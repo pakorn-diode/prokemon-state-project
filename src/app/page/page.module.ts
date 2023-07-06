@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {ScrollingModule} from '@angular/cdk/scrolling';
 
 import { HomePageComponent } from './home-page/home-page.component';
 import { ElementPageComponent } from './element-page/element-page.component';
@@ -12,6 +13,10 @@ import { NgxTypedJsModule } from 'ngx-typed-js';
 import { CollectionsComponent } from './collections/collections.component';
 import { EventComponent } from './event/event.component';
 import { MemberComponent } from './member/member.component';
+import { ContentHomePageComponent } from './content-home-page/content-home-page.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { NgxSlickJsModule } from "ngx-slickjs";
+
 
 
 @NgModule({
@@ -24,10 +29,13 @@ import { MemberComponent } from './member/member.component';
     EventComponent,
     MemberComponent,
     CollectionsComponent,
+    ContentHomePageComponent,
   ],
   imports: [
     CommonModule,
     NgxTypedJsModule,
+    ScrollingModule,
+    SlickCarouselModule,
     RouterModule.forChild(PageRouting.routes())
   ]
 })

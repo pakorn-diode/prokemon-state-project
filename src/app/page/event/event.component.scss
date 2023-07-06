@@ -1,0 +1,60 @@
+#btn-hamburger {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    border: none;
+    outline: 0;
+    background: black; // change color to your favorite here
+    border-radius: 5px;
+    padding: 0.6em;
+    cursor: pointer;
+    .line-1,
+    .line-2,
+    .line-3 {
+      width: 22px;
+      height: 2px;
+      background-color: yellow;
+      margin: 4px 0;
+      transition: 0.4s;
+    }
+    &.animeOpenClose .line-1 {
+      -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+      transform: rotate(-45deg) translate(-5px, 4px);
+    }
+    &.animeOpenClose .line-2 {
+      opacity: 0;
+    }
+    &.animeOpenClose .line-3 {
+      -webkit-transform: rotate(45deg) translate(-4px, -4px);
+      transform: rotate(45deg) translate(-4px, -4px);
+    }
+  }
+  .aside-menu {
+    width: 80%;
+    max-width: 280px;
+    height: 100vh;
+    padding: 1em;
+    position: fixed;
+    left: -80%;
+    top: 0;
+    background-color: darkorange;
+    transition: left 0.45s ease-in-out;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        line-height: 1.5em;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  #menu {
+    display: none;
+  }
+  #menu:checked + .aside-menu {
+    left: 0;
+  }

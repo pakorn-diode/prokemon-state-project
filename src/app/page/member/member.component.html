@@ -1,4 +1,30 @@
-<app-header></app-header>
-<div class="mt-0 md:mt-[4.75rem] bg-green-400">
-    Member ITS WORKS
+<div class="h-[100vh] bg-stone-400">
+    <div class="py-8 bg-stone-400"></div>
+    <!-- <div class="flex justify-center items-center h-full">
+        <div class="grid grid-cols-3 h-full w-[90%]">
+            <div class="col-span-1 grid text-4xl overflow-y-scroll snap-proximity snap-y">
+                    <div *ngFor="let items of dataList; let i = index" class="h-[20vh]">
+                        <div id="{{i}}" class="select-none flex hover:text-[#d19a3b snap-center">
+                            <span class="text-lg">{{i + 1}}</span>
+                            <label class="cursor-pointer">{{items.name}}</label>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="flex justify-center items-center h-full">
+        <div class="grid grid-cols-3 h-full w-[90%]">
+            <div class="col-span-1 grid text-4xl snap-proximity snap-y test bg-red-200">
+                <cdk-virtual-scroll-viewport #scroller itemSize="10" class="h-[90vh]" >
+                    <div *cdkVirtualFor="let items of dataList; let i = index" class="h-28">
+                        <div id="{{items.id}}" class="select-none flex hover:text-[#d19a3b snap-center">
+                            <span class="text-lg">{{items.id}}</span>
+                            <label class="cursor-pointer">{{items?.name}}</label>
+                        </div>
+                    </div>
+                </cdk-virtual-scroll-viewport>
+            </div>
+        </div>
+    </div>   
+    
 </div>
