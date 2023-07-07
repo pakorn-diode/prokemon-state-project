@@ -16,9 +16,16 @@ export class MemberComponent implements OnInit {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 2,
-    dots: true,
-    autoplay: true,
-    autoplaySpeed: 2000
+    dots: false,
+    autoplay: false,
+    vertical: true,
+    centerMode: true,
+    adaptiveHeight: true,
+    draggable: true,
+    focusOnSelect: true,
+    swipe:true,
+    swipeToSlide:true,
+    touchMove:true,
   };
   public dataList: any = new Array<any>;
   public objectA: any;
@@ -62,7 +69,7 @@ export class MemberComponent implements OnInit {
 
   fetchMore(): void {
     timer(1000).subscribe(() => {
-      this.dataList = [...this.dataList,...this.dataList];
+      // this.dataList = [...this.dataList,...this.dataList];
     });
   }
 }

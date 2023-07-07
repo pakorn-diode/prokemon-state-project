@@ -35,6 +35,16 @@ import { NgxSlickJsModule } from "ngx-slickjs";
     CommonModule,
     NgxTypedJsModule,
     ScrollingModule,
+    NgxSlickJsModule.forRoot({
+      links: {
+        jquery: "https://code.jquery.com/jquery-3.4.0.min.js",
+        slickJs:
+          "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js",
+        slickCss:
+          "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css",
+        slickThemeCss: "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" // if you are set null, this css won't load
+      }
+    }),
     SlickCarouselModule,
     RouterModule.forChild(PageRouting.routes())
   ]
