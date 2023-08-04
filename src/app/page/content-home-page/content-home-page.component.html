@@ -1,12 +1,14 @@
 
 <div class="relative h-[100vh] lg:h-[100vh] bg-black w-full top-0">
     <div class="z-30 absolute top-0 left-[15%] h-[100%] w-[0.5px] bg-[#dddddd]"></div>
-    <div class="absolute text-white text-xl hidden-text top-[20%] left-[20%] max-w-[60%] lg:max-w-[40%] xl:max-w-[65%] lg:text-4xl xl:text-7xl">
+    <div class="absolute text-white text-xl hidden-text top-[20%] left-[20%] max-w-[60%] lg:max-w-[60%] xl:max-w-[65%] lg:text-4xl xl:text-7xl">
         <ngx-typed-js [strings]="words" [shuffle]="false" [typeSpeed]="100" [backSpeed]="50" [loop]="true" [cursorColor]="'#d19a3b'">
             <label class="typing text-[#d19a3b] font-semibold"> </label>
         </ngx-typed-js>
-        <div class="mt-4 text-gray-300 text-sm lg:text-xl xl:text-2xl md:max-w-[60%] lg:max-w-[80%]">
-            <label>Made to commemorate the year 2023, don't forget to give everyone in your yoga class, Be happy with what you get and the happy time continues.</label>
+        <div class="mt-4 text-gray-300 text-sm lg:text-xl xl:text-2xl md:max-w-[90%]">
+            <label>Made to commemorate the year 2023, don't forget to give everyone in your yoga class, Be happy with what you get and the happy time continues. The format of this website is referring from
+                <a class="hovPlayvalorant" href="https://playvalorant.com/en-gb/">playvalorant.com</a>
+            </label>
         </div>
     </div>
     
@@ -134,6 +136,10 @@
                             <em class="bx bxl-instagram mr-1"></em>
                             <span>{{items.ig.name}}</span>
                         </a>
+                        <label class="flex w-fit items-center font-medium cursor-pointer my-1 xs:text-sm md:text-base instagram">
+                            <em class="bx bx-calendar mr-1"></em>
+                            <span>{{items.birthday}}</span>
+                        </label>
                     </div>
                 </div>
             </ng-container>

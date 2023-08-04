@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as jsonData from '../../../assets/JSON/member.json';
+import * as profile from '../../../assets/JSON/profile.json';
 
 @Component({
   selector: 'app-content-home-page',
@@ -76,7 +76,7 @@ export class ContentHomePageComponent implements OnInit {
     this.textObserver();
     this.imageObserver();
     this.textYObserver();
-    this.objectA = jsonData;
+    this.objectA = profile;
     this.dataList = this.objectA.default;
   }
 

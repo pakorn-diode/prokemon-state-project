@@ -1,0 +1,19 @@
+.box {
+  position: relative;
+  overflow: hidden;
+}
+.box::after {
+  content: '';
+  position: absolute;
+  width: 145%;
+  height: 1px;
+  bottom: 0;
+  left: -145%;
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 45%, #ffffff 100%);
+  z-index: 1;
+  transition: left 0s;
+}
+.box:hover::after {
+  left: 0%;
+  transition: left 1s ease-in;
+}
