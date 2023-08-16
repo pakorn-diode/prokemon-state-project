@@ -6,7 +6,7 @@
   </div>
 </label>
 <input type="checkbox" name="menu" id="menu">
-<header class="xs:top-[-150%] md:top-0 md:left-0 flex items-center md:justify-start fixed xs:px-4 md:px-8 py-0 bg-black/50 backdrop-blur-sm shadow-md z-40 w-full m-0">
+<header class="xs:top-[-150%] md:top-0 md:left-0 flex items-center md:justify-start fixed xs:px-4 md:px-8 md:py-0 xs:py-2 bg-black/50 backdrop-blur-sm shadow-md z-40 w-full m-0">
   <div class="font-semibold text-xl text-white flex justify-center items-center hover:text-[#d19a3b] xs:mr-2 md:m-0">
     <div [routerLink]="['/']"  class="w-fit duration-200 hover:-scale-x-100 cursor-pointer p-0 md:p-1">
       <img class="text-white w-10 h-auto" src="../../../assets/yoga.png" alt="fitness.png">
@@ -17,10 +17,10 @@
           <li [routerLink]="['/events']" routerLinkActive="active" class="xs:p-1 xs:w-full xs:mx-2 md:m-0 md:p-4 border-b-2 border-[#d19a3b] border-opacity-0 hover:border-opacity-100 hover:text-[#d19a3b] duration-200 cursor-pointer">
             <span>Events</span>
           </li>
-          <li [routerLink]="['/collections']" class="xs:p-1 md:p-4 xs:mx-2 md:m-0 border-b-2 border-[#d19a3b] border-opacity-0 hover:border-opacity-100 hover:text-[#d19a3b] duration-200 cursor-pointer">
+          <li [routerLink]="['/collections']" routerLinkActive="active" class="xs:p-1 md:p-4 xs:mx-2 md:m-0 border-b-2 border-[#d19a3b] border-opacity-0 hover:border-opacity-100 hover:text-[#d19a3b] duration-200 cursor-pointer">
             <span>Collections</span>
           </li>
-          <li [routerLink]="['/member']" class="xs:p-1 md:p-4 xs:mx-2 md:m-0 border-b-2 border-[#d19a3b] border-opacity-0 hover:border-opacity-100 hover:text-[#d19a3b] duration-200 cursor-pointer">
+          <li [routerLink]="['/member']" routerLinkActive="active" class="xs:p-1 md:p-4 xs:mx-2 md:m-0 border-b-2 border-[#d19a3b] border-opacity-0 hover:border-opacity-100 hover:text-[#d19a3b] duration-200 cursor-pointer">
             <span>Member</span>
           </li>
       </ul>

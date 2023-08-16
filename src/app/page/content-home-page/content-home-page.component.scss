@@ -103,3 +103,10 @@
     background-position: 0 100%;
   }
 }
+
+.birthday:hover{
+  background: radial-gradient(circle at 30% 107%, #165b33 0%, #146b3a 5%, #f8b229 45%, #ea4630 60%, #BB2528 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

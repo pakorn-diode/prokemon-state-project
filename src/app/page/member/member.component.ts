@@ -74,7 +74,7 @@ export class MemberComponent implements OnInit {
     this.onSelectMember('jarwa.belle');
   }
 
-  public onSelectMember(name:string): void{
+  public onSelectMember(name:string| HTMLSelectElement): void{
     this.memberList = this.member.default;
     console.log('name',name);
     this.memberList = this.memberList.filter((data:any)=> data.name == name);
