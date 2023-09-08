@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as event from '../../../assets/JSON/event.json';
 
 @Component({
   selector: 'app-event',
@@ -7,10 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventComponent implements OnInit {
 
+  public objectA: any;
+  public eventList: Array<any> = new Array<any>();
+
   constructor() { }
 
   public ngOnInit(): void {
     this.textObserver();
+    this.objectA = event;
+    this.eventList = this.objectA.default;
+    console.log('eventList', this.eventList);
+    
   }
 
   public textObserver(): void {

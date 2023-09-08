@@ -15,7 +15,6 @@ import { EventComponent } from './event/event.component';
 import { MemberComponent } from './member/member.component';
 import { ContentHomePageComponent } from './content-home-page/content-home-page.component';
 import { NgxSlickJsModule } from "ngx-slickjs";
-import { NgApexchartsModule } from 'ng-apexcharts';
 
 
 
@@ -45,7 +44,6 @@ import { NgApexchartsModule } from 'ng-apexcharts';
         slickThemeCss: "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" // if you are set null, this css won't load
       }
     }),
-    NgApexchartsModule,
     RouterModule.forChild(PageRouting.routes())
   ]
 })

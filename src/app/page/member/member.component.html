@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="relative h-[29rem] w-full bg-transparent xs:flex md:hidden">
-            <select #member [value]="1" (change)="onSelectMember(member.value)" class="absolute w-36 outline-0 right-[3%] bg-transparent text-white cursor-pointer">
+            <select #member [value]="1" (change)="onSelectMember(member.value)" class="absolute w-[50%] outline-0 right-[3%] bg-transparent text-white cursor-pointer text-2xl ">
                 <option *ngFor="let items of profileList" [value]="items.name" class="text-black">{{items.name}}</option>
             </select>
         </div>
