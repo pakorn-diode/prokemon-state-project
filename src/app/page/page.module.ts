@@ -15,6 +15,7 @@ import { EventComponent } from './event/event.component';
 import { MemberComponent } from './member/member.component';
 import { ContentHomePageComponent } from './content-home-page/content-home-page.component';
 import { NgxSlickJsModule } from "ngx-slickjs";
+import { LightgalleryModule } from 'lightgallery/angular/13';
 
 
 
@@ -44,6 +45,7 @@ import { NgxSlickJsModule } from "ngx-slickjs";
         slickThemeCss: "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" // if you are set null, this css won't load
       }
     }),
+    LightgalleryModule,
     RouterModule.forChild(PageRouting.routes())
   ]
 })
