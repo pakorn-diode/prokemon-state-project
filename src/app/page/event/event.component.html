@@ -23,7 +23,7 @@
     <div class="z-30 absolute bottom-[10%] h-[0.5px] w-full bg-[#dddddd]"></div>
 </div>
 <div *ngFor="let items of eventList; let i = index">
-    <div class="h-[90dvh] text-white bg-black relative">
+    <div class="h-[90dvh] xl:h-[100dvh] text-white bg-black relative">
         <div class="z-30 absolute top-0 left-[15%] h-full w-[0.5px] bg-[#dddddd] xs:hidden md:flex"></div>
         <div class="relative top-0 left-[3%] md:left-[20%] xs:max-w-[90%] md:max-w-[60%] lg:max-w-[60%] xl:max-w-[65%] show-text z-30">
             <div class="grid gap-y-3 lg:text-lg xl:text-xl">
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="flex gap-x-3 overflow-scroll">
-                    <span><em class="bx bx-party"></em> -</span>
+                    <img class="h-8 w-8 object-cover" src="https://cdn-icons-png.flaticon.com/512/6012/6012655.png" alt="join">
                     <span class="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-[#d19a3b]" *ngFor="let join of items.join">
                         <img class="h-full w-full rounded-full object-cover" src="{{join}}" alt="{{items.eventname}}">
                     </span>
