@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as event from '../../../assets/JSON/event.json';
+import * as member from '../../../assets/JSON/member.json';
 
 @Component({
   selector: 'app-event',
@@ -8,16 +9,21 @@ import * as event from '../../../assets/JSON/event.json';
 })
 export class EventComponent implements OnInit {
 
-  public objectA: any;
+  public objectEvent: any;
+  public objectMember: any;
   public eventList: Array<any> = new Array<any>();
+  public memberList: Array<any> = new Array<any>();
 
   constructor() { }
 
   public ngOnInit(): void {
     this.textObserver();
-    this.objectA = event;
-    this.eventList = this.objectA.default;
+    this.objectEvent = event;
+    this.objectMember = member;
+    this.eventList = this.objectEvent.default;
+    this.memberList = this.objectMember.default;
     console.log('eventList', this.eventList);
+    console.log('memberList', this.memberList);
     
   }
 

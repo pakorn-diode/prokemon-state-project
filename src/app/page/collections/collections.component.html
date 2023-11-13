@@ -5,7 +5,7 @@
             <lightgallery [settings]="settings" [onBeforeSlide]="onBeforeSlide"  class="grid gap-4 items-stretch" *ngFor="let item of collectionList; let i = index">
                 <ng-container *ngFor="let data of item.data; let j = index">
                     <a href="{{data.src}}" class="gallery-item" attr.data-sub-html="{{data.dataSubHtml}}"> 
-                        <img class="img-responsive h-full max-w-full rounded-lg" src="{{data.src}}" />
+                        <img class="img-responsive xs:max-h-44 md:max-h-full h-full w-full rounded-lg" src="{{data.src}}" alt="" />
                     </a>
                 </ng-container>
             </lightgallery>

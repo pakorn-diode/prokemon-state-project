@@ -1,34 +1,75 @@
 <div class="py-8 bg-black"></div>
-<div class="relative w-full text-center text-white bg-black h-[95dvh]">
+<div class="relative h-[100vh] lg:h-[130vh] bg-black w-full top-0">
+    <div class="z-30 absolute top-24 left-[5%] md:left-[15%] h-[100%] flex flex-col justify-center items-center text-white text-3xl">
+        <div class="rounded-full p-1" style="border: 2px solid rgba(255, 255, 255, 0.3);"></div>
+        <div class="w-[1px] h-full justify-self-center" style="background: linear-gradient(transparent, #d19a3b 30%)"></div> 
+        <em class="bx bx-user my-5 rounded-full"></em>
+        <div class="w-[1px] h-full rounded mx-auto" style="background: linear-gradient(#d19a3b, #2DA44E 80%, #3FB950);"></div>
+    </div>
+    <div class="absolute text-[#8c959f] top-[25%] left-[20%] my-auto text-6xl md:text-8xl w-auto">
+        <label class="text-[#d19a3b] font-semibold">Events from 2023</label>
+        <div>
+            <label class="text-xl xl:text-2xl flex"> Catch the moment.</label>
+        </div>
+    </div>
+    <div class="absolute text-white top-[60%] left-[20%] my-auto text-2xl">
+        <label class="text-[#8c959f]">People who participate in these events</label>
+        <div>
+            <label class="text-xl xl:text-2xl flex font-semibold">You should to know.</label>
+        </div>
+        <div class="grid lg:flex -left-9 grid-cols-2 gap-y-2 gap-x-5 w-fit mt-10">
+            <div class="w-40 h-56 border border-gray-800 bg-[#161b22] rounded p-[0.5px]">
+                <div class="flex justify-center items-center p-3">
+                    <img src="https://picsum.photos/200/300" class="w-24 h-24 rounded-full" alt="https://picsum.photos/200/300">
+                </div>
+                <div class="flex justify-center items-center py-2">
+                    <label class="text-sm font-semibold text-[#ebf5ff] opacity-50">test test.test</label>
+                </div>
+                <div class="flex justify-center items-center pt-4">
+                    <button class="text-[#c9d1d9] text-sm font-semibold border border-gray-600 rounded px-4 py-2 opacity-50 bg-[#21262d] hover:bg-[#30363d] flex items-center transition duration-300 ease-in-out">
+                        <em class="bx bx-library mr-1"></em>
+                        information
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</div>
+
+<!-- <div class="relative w-full text-center text-white bg-black h-[95dvh]">
     <div class="z-30 absolute top-[10%] h-[0.5px] w-full bg-[#dddddd]"></div>
-    <div class="relative top-[10%] flex h-[80%] overflow-scroll ">
-        <video class="h-full w-full object-cover hidden-text" [muted]="'muted'" loop autoplay>
+    <section class="relative top-[10%] flex h-[80%] overflow-scroll ">
+        <video class="h-full w-full object-cover hidden-text" [muted]="'muted'" loop autoplay playsInline [disablePictureInPicture]="true">
             <source src="../../../assets/WhatsApp Video/VID-20230527-WA0031.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <video class="h-full w-full object-cover hidden-text" [muted]="'muted'" loop autoplay>
+        <video class="h-full w-full object-cover hidden-text" [muted]="'muted'" loop autoplay playsInline>
             <source src="../../../assets/WhatsApp Video/VID-20230527-WA0000.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <video class="h-full w-full object-cover hidden-text" [muted]="'muted'" loop autoplay>
+        <video class="h-full w-full object-cover hidden-text" [muted]="'muted'" loop autoplay playsInline>
             <source src="../../../assets/WhatsApp Video/VID-20230228-WA0016.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <video class="h-full w-full object-cover hidden-text" [muted]="'muted'" loop autoplay>
+        <video class="h-full w-full object-cover hidden-text" [muted]="'muted'" loop autoplay playsInline>
             <source src="../../../assets/WhatsApp Video/VID-20230627-WA0021.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <label class=" hidden-text text-5xl xl:text-7xl absolute bottom-[50%] right-[40%] md:right-[44%]">EVENT</label>
-    </div>
-    <div class="z-30 absolute bottom-[10%] h-[0.5px] w-full bg-[#dddddd]"></div>
+    </section>
+    <div class="z-30 absolute bottom-[5%] h-[0.5px] w-full bg-[#dddddd]"></div>
+</div> -->
+
+<!-- <div class="text-white text-7xl fixed top-[45%] flex items-center lg:w-80">
+    <hr class="w-full">
+    <span >Event</span>
+    <hr class="w-full">
 </div>
-<div *ngFor="let items of eventList; let i = index">
-    <div class="h-[90dvh] xl:h-[100dvh] text-white bg-black relative">
-        <div class="z-30 absolute top-0 left-[15%] h-full w-[0.5px] bg-[#dddddd] xs:hidden md:flex"></div>
-        <div class="relative top-0 left-[3%] md:left-[20%] xs:max-w-[90%] md:max-w-[60%] lg:max-w-[60%] xl:max-w-[65%] show-text z-30">
+<div *ngFor="let items of eventList; let i = index" class="bg-black px-1 py-2 grid justify-center">
+    <div class="text-white bg-[#131416] py-4 px-2 rounded max-w-4xl">
             <div class="grid gap-y-3 lg:text-lg xl:text-xl">
-                <div class="grid gap-y-1">
-                    <!-- <label class="flex justify items-center text-gray-400"><em class="bx bx-calendar mr-1"></em>23/01/2564</label> -->
+                <div class="grid gap-y-1 ml-1">
                     <div class="text-lg md:text-2xl text-[#d19a3b] font-semibold lg:flex items-end">
                         <span>{{items.eventname}}</span>
                         <span class="flex justify items-center text-gray-500 xs:text-xs md:text-base md:mx-2">
@@ -58,9 +99,6 @@
                     </span>
                 </div>
             </div>
-        </div>
-        <div class="flex justify-center relative top-[10%]">
-            <hr class="h-1 w-[60%] xl:w-[50%]">
-        </div>
     </div>
-</div>
+</div> -->
+
