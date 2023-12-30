@@ -27,7 +27,7 @@
                     <label class="text-sm font-semibold text-[#ebf5ff] opacity-50">{{member.name}}</label>
                 </div>
                 <div class="flex justify-center items-center pt-3">
-                    <button class="text-[#c9d1d9] text-sm font-semibold border border-gray-600 rounded px-4 py-2 m-1 opacity-50 bg-[#21262d] hover:bg-[#30363d] flex items-center transition duration-300 ease-in-out">
+                    <button [routerLink]="['/member']" [state]="{'name':member.name}" class="text-[#c9d1d9] text-sm font-semibold border border-gray-600 rounded px-4 py-2 m-1 opacity-50 bg-[#21262d] hover:bg-[#30363d] flex items-center transition duration-300 ease-in-out">
                         <em class="bx bx-library mr-1"></em>
                         information
                     </button>
@@ -37,7 +37,7 @@
     </div>
 </div>
 
-<div *ngFor="let items of eventList; let i = index" class="bg-black relative text-white h-screen">
+<div *ngFor="let items of eventList; let i = index" class="bg-black relative text-white xs:h-[115vh] lg:h-screen">
     <div class="z-30 absolute left-[2%] -top-[1%] md:left-[15%] h-[100%] flex flex-col justify-center items-start text-white text-3xl">
         <a href="{{items.locationUrl}}" target="_blank" class="flex justify-start items-center text-red-400 relative -top-5">
             <em class="bx bx-map mr-1 text-red-400"></em><span >{{items.location}}</span>

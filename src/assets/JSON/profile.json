@@ -48,7 +48,7 @@
             "name": "millymeet",
             "link": "https://www.instagram.com/millymeet/"
         },
-        "birthday": "23/12/199X"
+        "birthday": "22/12/199X"
     },
     {
         "id": "4",
@@ -65,11 +65,11 @@
             "name": "marynanthicha",
             "link": "https://www.instagram.com/marynanthicha/"
         },
-        "birthday": "15/08/198X"
+        "birthday": "13/08/198X"
     },
     {
         "id": "5",
-        "name": "nancytjtr",
+        "name": "nancy",
         "detail":"Nancy Chawla Nan I run to add life to my days 🌈❤️ ⏱ 1k:4:22 ~ 5k:24:27 ~ 10k:49:02 ~ 21K:1:45 ~ 42k:4:15 ~ 60k 7:19:18 ⏱ www.facebook.com/nancy.c.gambhir",
         "profile":"../../../assets/member/nancy/nancy.jpg",
         "bg":"",
@@ -82,7 +82,7 @@
             "name": "nancytjtr",
             "link": "https://www.instagram.com/nancytjtr/"
         },
-        "birthday": "23/12/19XX"
+        "birthday": "1/12/19XX"
     },
     {
         "id": "6",
@@ -134,5 +134,22 @@
             "link": "https://www.instagram.com/pakorndiode/"
         },
         "birthday": "06/12/2001"
+    },
+    {
+        "id": "9",
+        "name": "veenalaveena",
+        "detail":"Laveena 🇹🇭🇮🇳",
+        "profile":"../../../assets/member/veenalaveena/veenalaveena.jpg",
+        "bg":"",
+        "tel": "",
+        "fb": {
+            "name": "",
+            "link": ""
+        },
+        "ig": {
+            "name": "veenalaveena",
+            "link": "https://www.instagram.com/veenalaveena/"
+        },
+        "birthday": "??/??/????"
     }
 ]

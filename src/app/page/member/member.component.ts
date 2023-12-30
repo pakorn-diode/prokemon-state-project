@@ -45,14 +45,17 @@ export class MemberComponent implements OnInit {
 
   public power:boolean = true;
   
+  public historyName!: string;
 
   ngOnInit(): void {
+    this.historyName = history.state?.name == undefined ? 'jarwa.belle' : history.state?.name;
+    console.log('historyName',this.historyName);
     this.profile = profile;
     this.member = member;
     this.profileList = this.profile.default;
     this.memberList = this.member.default;
     console.log('memberList',this.memberList);
-    this.onSelectMember('jarwa.belle');
+    this.onSelectMember(this.historyName);
   }
 
   public onSelectMember(name:string| HTMLSelectElement): void{
@@ -71,13 +74,7 @@ export class MemberComponent implements OnInit {
   }
 
   public onSelectAbilities(ability:string): void{
-    console.log('onSelectAbilities',ability);
     this.selectAbilityList = this.abilityList.filter((data:any)=> data.title == ability)
-    console.log('selectAbilityList',this.selectAbilityList);
-  
-    if (true) {
-      this.power =false;
-    }
   }
 
   changeColorAbilities(id:any): void{

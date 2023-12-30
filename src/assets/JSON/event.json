@@ -256,5 +256,31 @@
             "../assets/member/diode/diode.jpg"
         ],
         "date":"14/10/2566"
+    },
+    {
+        "eventname":"Jasmeet birthday party & Bonchon",
+        "description":"Before throwing Jasmeet's birthday party with cool ice cream cake, the 4(3) of us ate 18 pieces of Bonchon Chicken.",
+        "location":"The Circle Ratchapruk",
+        "locationUrl":"https://maps.app.goo.gl/odKZ2x1w4F7JkwVE6",
+        "highlightImage":"../assets/event/11/0775E0E4-9BF9-440D-8FE4-91FAC1D3E15A.jpg",
+        "images":[
+            "./assets/event/11/0775E0E4-9BF9-440D-8FE4-91FAC1D3E15A.jpg",
+            "../assets/event/11/BDD2FB55-38EC-45D2-B89D-3A1C18F2F841.jpg",
+            "../assets/event/11/IMG20231222200357_5_0.jpg",
+            "../assets/event/11/IMG20231222200415_3_0.jpg",
+            "../assets/event/11/IMG20231222200603_2_0.jpg",
+            "../assets/event/11/IMG20231222200611_6_0.jpg",
+            "../assets/event/11/IMG20231222200624_7_0.jpg"
+        ],
+        "join":[
+            "../assets/member/bell/bell.jpg",
+            "../assets/member/singh/singhnavjeet.jpg",
+            "../assets/member/millymeet/millymeet.jpg",
+            "../assets/member/marynanthicha/marynanthicha.jpg",
+            "../assets/member/nancy/nancy.jpg",
+            "../assets/member/ohm/ohm.jpg",
+            "../assets/member/diode/diode.jpg"
+        ],
+        "date":"22/12/2566"
     }
 ]

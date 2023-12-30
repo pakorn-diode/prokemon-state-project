@@ -1,4 +1,4 @@
-<div class="bg-[#FBC575] bg-[#263CA1] bg-[#495068] bg-[#113C99] bg-[#221725] bg-[#A6479A] bg-[#101010] bg-[#6E9CAC]"></div>
+<div class="bg-[#BC7770] bg-[#263CA1] bg-[#495068] bg-[#113C99] bg-[#cccccc] bg-[#2B3044] bg-[#101010] bg-[#6E9CAC] bg-[#221725]"></div>
 <div [classList]="bg">
     <div class="z-30 absolute top-0 left-[8%] xl:left-[19%] md:h-[105vh] xl:h-[100%] w-[0.5px] bg-[#dddddd]"></div>
     <div [classList]="bgPy8"></div>
@@ -16,12 +16,12 @@
         </div>
         <div class="relative h-[29rem] w-full bg-transparent xs:flex md:hidden">
             <img class="absolute right-[4%] top-1 h-6 w-6" src="https://cdn-icons-png.flaticon.com/512/3580/3580091.png" alt="enter">
-            <select #member [value]="1" (change)="onSelectMember(member.value)" class="absolute w-auto outline-0 right-[3%] bg-transparent text-white cursor-pointer text-2xl border border-emerald-300 rounded-md">
-                <option *ngFor="let items of profileList" [value]="items.name" class="text-black">{{items.name}}</option>
+            <select #member [value]="1" (change)="onSelectMember(member.value)" class="absolute w-auto outline-0 right-[3%] bg-transparent text-white cursor-pointer text-2xl border border-[#d19a3b] rounded-md">
+                <option *ngFor="let items of profileList" [value]="items.name" [selected]="this.historyName === items.name" class="text-black">{{items.name}}</option>
             </select>
         </div>
         <div *ngFor="let members of memberList">
-            <div class="flex justify-center bg-transparent xl:h-[80%] w-[27%] xs:min-w-[20rem] lg:min-w-[30rem] absolute z-20 right-[35%] md:right-[30%] xl:right-[36%] top-[8%]">
+            <div class="flex justify-center bg-transparent xs:h-[70%] md:h-[100%] lg:h-[80%] xs:max-w-[17rem] lg:min-w-[25rem] absolute z-20 right-[35%] md:right-[30%] xl:right-[36%] top-[8%]">
                 <img class="w-full h-full md:h-[105vh] xl:h-[80vh]" src="{{members.picture}}" alt="{{member.name}}" >
             </div>
             <div class="text-white h-full w-[9.1rem] md:w-[20rem] absolute right-[3%] top-[15%] md:top-[30%] xl:right-[15%] xl:top-[20%]">

@@ -4,8 +4,8 @@
         "name": "jarwa.belle",
         "role":"teacher",
         "detail":"Tinker JingleBelle Yoga Instructor Pilates Instructor Muffin baker",
-        "picture":"../../../assets/member/bell/bell-reBg.jpg",
-        "color":"bg-[#6E9CAC]",
+        "picture":"../../../assets/member/bell/bell-reBg.png",
+        "color":"bg-[#2B3044]",
         "abilities":[
             {
                 "title":"yoga teacher",
@@ -50,7 +50,7 @@
         "name": "singhnavjeet",
         "role":"student",
         "detail":"Navjeet Singh 🖖🏽🐾🔴⚪️ he/him father of @lifeofbacardi | @fcbayern fanatic",
-        "picture":"../../../assets/member/singh/singh-reBg.jpg",
+        "picture":"../../../assets/member/singh/singh-reBg.png",
         "color":"bg-[#101010]",
         "abilities":[
             {
@@ -96,8 +96,8 @@
         "name": "millymeet",
         "role":"student",
         "detail":"Jasmeet 💕 🇹🇭🇮🇳Bollywood Diwani 💃🏻🎤 ✈️ Ex: Thaivietjet SCC batch 10 Snapchat: millymeet",
-        "picture":"../../../assets/member/millymeet/millymeet-reBg.jpg",
-        "color":"bg-[#A6479A]",
+        "picture":"../../../assets/member/millymeet/millymeet-reBg.png",
+        "color":"bg-[#113C99]",
         "abilities":[
             {
                 "title":"strong women",
@@ -142,8 +142,8 @@
         "name": "marynanthicha",
         "role":"student",
         "detail":"Mary Nanthicha",
-        "picture":"https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt516d37c6c84fcda0/625db737c9aa404b76ddd594/Fade_Key_Art_587x900_for_Website.png",
-        "color":"bg-[#221725]",
+        "picture":"../../../assets/member/marynanthicha/marynanthicha-reBg.png",
+        "color":"bg-[#cccccc]",
         "abilities":[
             {
                 "title":"runner",
@@ -185,10 +185,10 @@
     },
     {
         "id":"5",
-        "name": "nancytjtr",
+        "name": "nancy",
         "role":"student",
         "detail":"Nancy Chawla Nan I run to add life to my days 🌈❤️ ⏱ 1k:4:22 ~ 5k:24:27 ~ 10k:49:02 ~ 21K:1:45 ~ 42k:4:15 ~ 60k 7:19:18 ⏱ www.facebook.com/nancy.c.gambhir",
-        "picture":"https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8093ba7b5e84ed05/61d8a63ddea73a236fc56d12/Neon_KeyArt-Web.png",
+        "picture":"../../../assets/member/nancy/nancy-reBg.png",
         "color":"bg-[#113C99]",
         "abilities":[
             {
@@ -234,8 +234,8 @@
         "name": "_stampph",
         "role":"student",
         "detail":"2 X X 1 🦅 instagram.com/intirarodduang",
-        "picture":"https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf0200e1821b5b39f/5eb7cdc144bf8261a04d87f9/V_AGENTS_587x900_Phx.png",
-        "color":"bg-[#FBC575]",
+        "picture":"../../../assets/member/stampph/stampph-reBg.png",
+        "color":"bg-[#263CA1]",
         "abilities":[
             {
                 "title":"playmaker",
@@ -280,8 +280,8 @@
         "name": "ohmm.prm",
         "role":"student",
         "detail":"Ohm Poramet | 2000 | Bangkok, Thailand | | TP 122 | KU 78 | For work : 0656496456 (k. Bee)",
-        "picture":"https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf11234f4775729b7/5ebf2c275e73766852c8d5d4/V_AGENTS_587x900_ALL_Sova_2.png",
-        "color":"bg-[#263CA1]",
+        "picture":"../../../assets/member/ohm/ohm-reBg.png",
+        "color":"bg-[#BC7770]",
         "abilities":[
             {
                 "title":"playmaker",
@@ -326,8 +326,8 @@
         "name": "pakorndiode",
         "role":"student",
         "detail":"Diode Sillapaprapha",
-        "picture":"https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt26fcf1b5752514ee/5eb7cdbfc1dc88298d5d3799/V_AGENTS_587x900_Brimstone.png",
-        "color":"bg-[#495068]",
+        "picture":"https://cdn-icons-png.flaticon.com/512/5894/5894059.png",
+        "color":"bg-[#6E9CAC]",
         "abilities":[
             {
                 "title":"necessary model",
@@ -351,7 +351,53 @@
                 "title":"website builder",
                 "detail":"Can edit this website as you like, so tell me what you want. But whether it can be done is another matter.",
                 "src":"https://cdn-icons-png.flaticon.com/512/10484/10484431.png",
-                "simple":"./../../assets/member/diode/abilities/4.jpeg"
+                "simple":"./../../assets/member/diode/abilities/4.png"
+            }
+        ],
+        "highlight":[
+            {
+                "url":"1",
+                "image":"1",
+                "detail":"1"
+            },
+            {
+                "url":"2",
+                "image":"2",
+                "detail":"2"
+            }
+        ]
+    },
+    {
+        "id":"9",
+        "name": "veenalaveena",
+        "role":"student",
+        "detail":"Laveena 🇹🇭🇮🇳",
+        "picture":"https://cdn-icons-png.flaticon.com/512/3220/3220315.png",
+        "color":"bg-[#221725]",
+        "abilities":[
+            {
+                "title":"Unknow1",
+                "detail":"????",
+                "src":"https://cdn-icons-png.flaticon.com/512/3156/3156280.png",
+                "simple":"./../../assets/no image.jpg"
+            },
+            {
+                "title":"Unknow2",
+                "detail":"????",
+                "src":"https://cdn-icons-png.flaticon.com/512/3156/3156280.png",
+                "simple":"./../../assets/no image.jpg"
+            },
+            {
+                "title":"Unknow3",
+                "detail":"????",
+                "src":"https://cdn-icons-png.flaticon.com/512/3156/3156280.png",
+                "simple":"./../../assets/no image.jpg"
+            },
+            {
+                "title":"Unknow4",
+                "detail":"????",
+                "src":"https://cdn-icons-png.flaticon.com/512/3156/3156280.png",
+                "simple":"./../../assets/no image.jpg"
             }
         ],
         "highlight":[

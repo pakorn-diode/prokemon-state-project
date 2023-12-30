@@ -1,6 +1,6 @@
 
 <div class="relative h-[100vh] lg:h-[100vh] bg-black w-full top-0">
-    <div class="z-30 absolute top-0 left-[15%] h-[100%] w-[0.5px] bg-[#dddddd]"></div>
+    <div class="z-30 absolute top-0 left-[5%] md:left-[15%] h-[100%] w-[0.5px] bg-[#dddddd]"></div>
     <div class="absolute text-white text-xl hidden-text top-[20%] left-[20%] max-w-[60%] lg:max-w-[60%] xl:max-w-[65%] lg:text-4xl xl:text-7xl">
         <ngx-typed-js [strings]="words" [shuffle]="false" [typeSpeed]="100" [backSpeed]="50" [loop]="true" [cursorColor]="'#d19a3b'">
             <label class="typing text-[#d19a3b] font-semibold"> </label>
@@ -25,20 +25,20 @@
         <div class="absolute bottom-[-3%] right-0 w-[100%] h-[0.5px] bg-[#dddddd] xs:hidden lg:flex"></div>
         <div class="absolute bottom-[-6%] right-0 w-[80%] h-[0.5px] bg-[#dddddd] xs:hidden lg:flex"></div>
     </div>
-    <div class="absolute p-2 top-[15%] left-[15%] bg-[#d19a3b] rounded-e-full"></div>
-    <div class="absolute p-2 top-[35%] left-[15%] bg-[#d19a3b] rounded-e-full"></div>
-    <div class="absolute p-2 top-[55%] left-[15%] bg-[#d19a3b] rounded-e-full"></div>
-    <div class="absolute p-2 top-[75%] left-[15%] bg-[#d19a3b] rounded-e-full"></div>
+    <div class="absolute p-2 top-[15%] left-[5%] md:left-[15%] bg-[#d19a3b] rounded-e-full"></div>
+    <div class="absolute p-2 top-[35%] left-[5%] md:left-[15%] bg-[#d19a3b] rounded-e-full"></div>
+    <div class="absolute p-2 top-[55%] left-[5%] md:left-[15%] bg-[#d19a3b] rounded-e-full"></div>
+    <div class="absolute p-2 top-[75%] left-[5%] md:left-[15%] bg-[#d19a3b] rounded-e-full"></div>
     <!-- <div class="z-30 absolute top-0 right-[15%] h-[100%] w-[1px] px-[1px] bg-[#d19a3b]"></div> -->
 </div>
 <div class="relative h-[75vh] md:h-[50vh] lg:h-[75vh] max-w-full bg-white">
-    <div class="z-30 absolute bottom-0 left-[15%] h-[100%] w-[0.5px] bg-[#dddddd]"></div>
+    <div class="z-30 absolute bottom-0 left-[5%] md:left-[15%] h-[100%] w-[0.5px] bg-[#dddddd]"></div>
     <div class="hidden lg:grid select-none">
         <label class="absolute text-gray-200/60 lg:text-[12rem] xl:text-[20rem] left-[10%] lg:top-[-5%] xl:top-[-10%] font-semibold ">YOGA</label>
         <label class="absolute text-white lg:text-[12rem] xl:text-[20rem] left-[10%] lg:top-[-5%] xl:top-[-10%] ">YOGA</label>
     </div>
-    <div class="z-30 absolute left-[15%] top-[8%] text-[#0f1923] h-full w-[70%] hidden-textY">
-        <div class="text-xl lg:text-4xl xl:text-7xl left-[15%] font-semibold">
+    <div class="z-30 absolute left-[5%] md:left-[15%] top-[8%] text-[#0f1923] h-full w-[70%] hidden-textY">
+        <div class="text-xl lg:text-4xl xl:text-7xl left-[7%] md:left-[3%] relative font-semibold">
             <em class="bx bx-calendar-event mr-2 text-[#0f1923]"></em>
             <label>EVENTS</label>
         </div>
@@ -54,7 +54,7 @@
             </div>
         </div>
     </div>
-    <div class="absolute bottom-[10%] right-[5%] w-[34%] md:bottom-[10%] md:top-[2%] md:right-[10%] md:w-[20%]">
+    <div class="absolute bottom-[3%] right-[5%] w-[34%] md:bottom-[10%] md:top-[2%] md:right-[10%] md:w-[20%]">
         <label class="absolute top-[5%] left-[-3%] bg-[#d19a3b] py-1 px-5 xs:text-sm lg:text-xl font-semibold ">Pour wine</label>
         <video class="rounded-lg w-full shadow-xl" [muted]="'muted'" loop autoplay>
             <source src="../../../assets/WhatsApp Video/VID-20230527-WA0008.mp4" type="video/mp4">
@@ -63,7 +63,7 @@
     </div>
 </div>
 <div class="relative h-[80vh] max-w-full bg-[#d19a3b]">
-    <div class="z-30 absolute bottom-0 left-[15%] h-[100%] w-[0.5px] bg-[#dddddd]"></div>
+    <div class="z-30 absolute bottom-0 left-[5%] md:left-[15%] h-[100%] w-[0.5px] bg-[#dddddd]"></div>
     <div class="absolute top-[50%] right-[40%] w-[40%] rotate-90 lg:top-[0%] lg:right-[60%] md:w-[30%] lg:w-[20%]">
         <label class="absolute top-[5%] left-[-3%] bg-black py-1 px-5 text-xl font-semibold text-white">Bacardi</label>
         <video class="rounded-lg w-full shadow-xl" [muted]="'muted'" loop autoplay>
@@ -96,16 +96,16 @@
             <em class="bx bx-group mr-2"></em>
             <label class="uppercase">Member</label>
         </div>
-        <div [routerLink]="['/member']" class="flex items-center xs:text-xs md:text-base cursor-pointer detail box">
+        <div [routerLink]="['/member']" class="flex items-center xs:text-sm md:text-base cursor-pointer detail box">
             <span>List</span>
             <em class="bx bx-right-arrow-alt xs:text-sm md:text-lg"></em>
         </div>
     </div>
     <div class="flex justify-center h-[90%]">
-        <div class="z-30 absolute bottom-0 left-[15%] h-[100%] w-[0.5px] bg-[#dddddd]"></div>
+        <div class="z-30 absolute bottom-0 left-[5%] md:left-[15%] h-[100%] w-[0.5px] bg-[#dddddd]"></div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-x-3 gap-y-2 w-[69%] p-3 h-full overflow-y-visible overflow-x-hidden border-t-2 border-gray-100 broder drop-shadow-lg hidden-text">
             <ng-container *ngFor="let items of dataList">
-                <div class="shadow-sm col-span-1 bg-white rounded border-[0.5px]">
+                <div [routerLink]="['/member']" [state]="{'name':items.name}" class="shadow-sm col-span-1 bg-white rounded border-[0.5px] cursor-pointer">
                     <ng-container *ngIf="items.bg !== ''">
                         <div class="h-24 md:h-32 overflow-hidden bg-amber-300 rounded-t w-full">
                             <img class="h-auto w-full object-fill" src="{{items.bg}}" alt="items.name">
@@ -139,6 +139,7 @@
                             <em class="bx bx-calendar mr-1"></em>
                             <span>{{items.birthday}}</span>
                         </label>
+                        <em class="absolute bx bx-chevron-right text-black -bottom-[25%] right-[5%] md:text-xl"></em>
                     </div>
                 </div>
             </ng-container>
