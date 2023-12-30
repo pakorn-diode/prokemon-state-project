@@ -4,24 +4,24 @@
         "description":"The people's first meal together in a yoga class after they've known each other for a while.",
         "location":"Sugar & Spice The Cafe",
         "locationUrl":"https://goo.gl/maps/JWKmg2eE4htz5GLF9",
-        "highlightImage":"../assets/event/1/IMG-20230228-WA0008.jpg",
+        "highlightImage":"https://pakorn-diode.github.io/yoga-Themafia/assets/event/1/IMG-20230228-WA0008.jpg",
         "images":[
-            "../assets/event/1/IMG-20230228-WA0008.jpg",
-            "../assets/event/1/IMG-20230228-WA0002.jpg",
-            "../assets/event/1/IMG-20230228-WA0007.jpg",
-            "../assets/event/1/IMG-20230228-WA0012.jpg",
-            "../assets/event/1/IMG-20230228-WA0015.jpg",
-            "../assets/event/1/IMG20230228205826.jpg",
-            "../assets/event/1/IMG20230228211128.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/1/IMG-20230228-WA0008.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/1/IMG-20230228-WA0002.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/1/IMG-20230228-WA0007.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/1/IMG-20230228-WA0012.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/1/IMG-20230228-WA0015.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/1/IMG20230228205826.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/1/IMG20230228211128.jpg"
         ],
         "join":[
-            "../assets/member/bell/bell.jpg",
-            "../assets/member/singh/singhnavjeet.jpg",
-            "../assets/member/millymeet/millymeet.jpg",
-            "../assets/member/marynanthicha/marynanthicha.jpg",
-            "../assets/member/nancy/nancy.jpg",
-            "../assets/member/ohm/ohm.jpg",
-            "../assets/member/diode/diode.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/bell/bell.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/singh/singhnavjeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/millymeet/millymeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/marynanthicha/marynanthicha.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/nancy/nancy.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/ohm/ohm.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/diode/diode.jpg"
         ],
         "date":"28/02/2566"
     },
@@ -30,23 +30,23 @@
         "description":"At first I was going to have Indian tea. But I ended up eating a lot of sweets and fruits.",
         "location":"P'Nancy House",
         "locationUrl":"https://goo.gl/maps/xXDDmDNWRbCLCrGE7",
-        "highlightImage":"../assets/event/2/IMG-20230426-WA0009.jpg",
+        "highlightImage":"https://pakorn-diode.github.io/yoga-Themafia/assets/event/2/IMG-20230426-WA0009.jpg",
         "images":[
-            "../assets/event/2/IMG-20230426-WA0009.jpg",
-            "../assets/event/2/IMG20230425203913.jpg",
-            "../assets/event/2/IMG-20230425-WA0000.jpg",
-            "../assets/event/2/IMG-20230425-WA0003.jpg",
-            "../assets/event/2/IMG-20230425-WA0004.jpg",
-            "../assets/event/2/IMG-20230425-WA0005.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/2/IMG-20230426-WA0009.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/2/IMG20230425203913.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/2/IMG-20230425-WA0000.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/2/IMG-20230425-WA0003.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/2/IMG-20230425-WA0004.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/2/IMG-20230425-WA0005.jpg"
         ],
         "join":[
-            "../assets/member/bell/bell.jpg",
-            "../assets/member/singh/singhnavjeet.jpg",
-            "../assets/member/millymeet/millymeet.jpg",
-            "../assets/member/marynanthicha/marynanthicha.jpg",
-            "../assets/member/nancy/nancy.jpg",
-            "../assets/member/stampph/stampph.jpg",
-            "../assets/member/diode/diode.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/bell/bell.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/singh/singhnavjeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/millymeet/millymeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/marynanthicha/marynanthicha.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/nancy/nancy.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/stampph/stampph.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/diode/diode.jpg"
         ],
         "date":"28/04/2566"
     },
@@ -55,23 +55,23 @@
         "description":"The people's second meal together in a yoga class after they've known each other for a while.",
         "location":"Take a Breath café & eatery",
         "locationUrl":"https://goo.gl/maps/N78kwzHnsaKSMv2d6",
-        "highlightImage":"../assets/event/3/IMG-20230526-WA0025.jpg",
+        "highlightImage":"https://pakorn-diode.github.io/yoga-Themafia/assets/event/3/IMG-20230526-WA0025.jpg",
         "images":[
-            "../assets/event/3/IMG-20230526-WA0025.jpg",
-            "../assets/event/3/IMG-20230527-WA0018.jpg",
-            "../assets/event/3/IMG-20230527-WA0023.jpg",
-            "../assets/event/3/IMG-20230527-WA0052.jpg",
-            "../assets/event/3/IMG20230526202809.jpg",
-            "../assets/event/3/IMG20230526211709.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/3/IMG-20230526-WA0025.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/3/IMG-20230527-WA0018.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/3/IMG-20230527-WA0023.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/3/IMG-20230527-WA0052.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/3/IMG20230526202809.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/3/IMG20230526211709.jpg"
         ],
         "join":[
-            "../assets/member/bell/bell.jpg",
-            "../assets/member/singh/singhnavjeet.jpg",
-            "../assets/member/millymeet/millymeet.jpg",
-            "../assets/member/marynanthicha/marynanthicha.jpg",
-            "../assets/member/nancy/nancy.jpg",
-            "../assets/member/stampph/stampph.jpg",
-            "../assets/member/diode/diode.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/bell/bell.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/singh/singhnavjeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/millymeet/millymeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/marynanthicha/marynanthicha.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/nancy/nancy.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/stampph/stampph.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/diode/diode.jpg"
         ],
         "date":"26/05/2566"
     },
@@ -89,10 +89,10 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp5hvw6LxzrtFDIiaj9ETqX7dW38OcbMaHCA&usqp=CAU"
         ],
         "join":[
-            "../assets/member/bell/bell.jpg",
-            "../assets/member/singh/singhnavjeet.jpg",
-            "../assets/member/nancy/nancy.jpg",
-            "../assets/member/diode/diode.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/bell/bell.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/singh/singhnavjeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/nancy/nancy.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/diode/diode.jpg"
         ],
         "date":"13/06/2566"
     },
@@ -101,22 +101,22 @@
         "description":"It was the first yoga event of the yoga class. and teaching yoga in activities on the occasion World Yoga Day.",
         "location":"Decathlon Rama 2",
         "locationUrl":"https://maps.app.goo.gl/kXBHKnSimSu6zikr9",
-        "highlightImage":"../assets/event/5/IMG-20230625-WA0064.jpg",
+        "highlightImage":"https://pakorn-diode.github.io/yoga-Themafia/assets/event/5/IMG-20230625-WA0064.jpg",
         "images":[
-            "../assets/event/5/IMG-20230625-WA0064.jpg",
-            "../assets/event/5/IMG-20230627-WA0000.jpg",
-            "../assets/event/5/IMG-20230625-WA0034.jpg",
-            "../assets/event/5/IMG-20230627-WA0004.jpg",
-            "../assets/event/5/IMG-20230627-WA0005.jpg",
-            "../assets/event/5/IMG-20230627-WA0020.jpg",
-            "../assets/event/5/IMG-20230627-WA0006.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/5/IMG-20230625-WA0064.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/5/IMG-20230627-WA0000.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/5/IMG-20230625-WA0034.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/5/IMG-20230627-WA0004.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/5/IMG-20230627-WA0005.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/5/IMG-20230627-WA0020.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/5/IMG-20230627-WA0006.jpg"
         ],
         "join":[
-            "../assets/member/bell/bell.jpg",
-            "../assets/member/singh/singhnavjeet.jpg",
-            "../assets/member/millymeet/millymeet.jpg",
-            "../assets/member/marynanthicha/marynanthicha.jpg",
-            "../assets/member/diode/diode.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/bell/bell.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/singh/singhnavjeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/millymeet/millymeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/marynanthicha/marynanthicha.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/diode/diode.jpg"
         ],
         "date":"25/06/2566"
     },
@@ -125,29 +125,29 @@
         "description":"The people's Third meal together in a yoga class after they've known each other for a while.",
         "location":"Oakland cafe x restaurants",
         "locationUrl":"https://maps.app.goo.gl/yFrRjdZejaPfyok5A",
-        "highlightImage":"../assets/event/6/LINE_ALBUM_14723 Oakland_230922_11.jpg",
+        "highlightImage":"https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/LINE_ALBUM_14723 Oakland_230922_11.jpg",
         "images":[
-            "../assets/event/6/LINE_ALBUM_14723 Oakland_230922_11.jpg",
-            "../assets/event/6/IMG20230714201359.jpg",
-            "../assets/event/6/IMG20230714201631.jpg",
-            "../assets/event/6/IMG20230714201910.jpg",
-            "../assets/event/6/IMG20230714202027.jpg",
-            "../assets/event/6/IMG20230714202336.jpg",
-            "../assets/event/6/IMG20230714202632.jpg",
-            "../assets/event/6/IMG20230714214349.jpg",
-            "../assets/event/6/IMG20230714214703.jpg",
-            "../assets/event/6/IMG20230714214705.jpg",
-            "../assets/event/6/IMG20230714231237.jpg",
-            "../assets/event/6/LINE_ALBUM_14723 Oakland_230922_44.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/LINE_ALBUM_14723 Oakland_230922_11.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/IMG20230714201359.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/IMG20230714201631.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/IMG20230714201910.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/IMG20230714202027.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/IMG20230714202336.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/IMG20230714202632.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/IMG20230714214349.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/IMG20230714214703.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/IMG20230714214705.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/IMG20230714231237.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/6/LINE_ALBUM_14723 Oakland_230922_44.jpg"
         ],
         "join":[
-            "../assets/member/bell/bell.jpg",
-            "../assets/member/singh/singhnavjeet.jpg",
-            "../assets/member/millymeet/millymeet.jpg",
-            "../assets/member/marynanthicha/marynanthicha.jpg",
-            "../assets/member/nancy/nancy.jpg",
-            "../assets/member/ohm/ohm.jpg",
-            "../assets/member/diode/diode.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/bell/bell.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/singh/singhnavjeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/millymeet/millymeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/marynanthicha/marynanthicha.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/nancy/nancy.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/ohm/ohm.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/diode/diode.jpg"
         ],
         "date":"14/07/2566"
     },
@@ -156,26 +156,26 @@
         "description":"P'Singh's birthday party was held at his own house with lots of food and 3 cakes.",
         "location":"P'Singh House",
         "locationUrl":"https://goo.gl/maps/xXDDmDNWRbCLCrGE7",
-        "highlightImage":"../assets/event/7/LINE_ALBUM_PaSinghBd_230922_28.jpg",
+        "highlightImage":"https://pakorn-diode.github.io/yoga-Themafia/assets/event/7/LINE_ALBUM_PaSinghBd_230922_28.jpg",
         "images":[
-            "../assets/event/7/LINE_ALBUM_PaSinghBd_230922_28.jpg",
-            "../assets/event/7/IMG20230728175541.jpg",
-            "../assets/event/7/IMG20230728180320.jpg",
-            "../assets/event/7/IMG20230728180616.jpg",
-            "../assets/event/7/IMG20230728182843.jpg",
-            "../assets/event/7/IMG20230728182855.jpg",
-            "../assets/event/7/IMG20230728182919.jpg",
-            "../assets/event/7/IMG20230728194035.jpg",
-            "../assets/event/7/LINE_ALBUM_PaSinghBd_230922_2.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/7/LINE_ALBUM_PaSinghBd_230922_28.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/7/IMG20230728175541.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/7/IMG20230728180320.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/7/IMG20230728180616.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/7/IMG20230728182843.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/7/IMG20230728182855.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/7/IMG20230728182919.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/7/IMG20230728194035.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/7/LINE_ALBUM_PaSinghBd_230922_2.jpg"
         ],
         "join":[
-            "../assets/member/bell/bell.jpg",
-            "../assets/member/singh/singhnavjeet.jpg",
-            "../assets/member/millymeet/millymeet.jpg",
-            "../assets/member/marynanthicha/marynanthicha.jpg",
-            "../assets/member/nancy/nancy.jpg",
-            "../assets/member/ohm/ohm.jpg",
-            "../assets/member/diode/diode.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/bell/bell.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/singh/singhnavjeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/millymeet/millymeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/marynanthicha/marynanthicha.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/nancy/nancy.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/ohm/ohm.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/diode/diode.jpg"
         ],
         "date":"28/07/2566"
     },
@@ -184,26 +184,26 @@
         "description":"It is an arrangement of birthdays in the common month of August for both people.",
         "location":"The Most",
         "locationUrl":"https://maps.app.goo.gl/FYypcJLMnWFnvq5fA",
-        "highlightImage":"../assets/event/8/IMG20230811222135.jpg",
+        "highlightImage":"https://pakorn-diode.github.io/yoga-Themafia/assets/event/8/IMG20230811222135.jpg",
         "images":[
-            "../assets/event/8/IMG20230811204742.jpg",
-            "../assets/event/8/IMG20230811204754.jpg",
-            "../assets/event/8/IMG20230811204800.jpg",
-            "../assets/event/8/IMG20230811204802.jpg",
-            "../assets/event/8/IMG20230811204804.jpg",
-            "../assets/event/8/IMG20230811204806.jpg",
-            "../assets/event/8/IMG20230811212633.jpg",
-            "../assets/event/8/IMG20230811212641.jpg",
-            "../assets/event/8/IMG20230811222214.jpg",
-            "../assets/event/8/LINE_ALBUM_118_230922_36.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/8/IMG20230811204742.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/8/IMG20230811204754.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/8/IMG20230811204800.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/8/IMG20230811204802.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/8/IMG20230811204804.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/8/IMG20230811204806.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/8/IMG20230811212633.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/8/IMG20230811212641.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/8/IMG20230811222214.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/8/LINE_ALBUM_118_230922_36.jpg"
         ],
         "join":[
-            "../assets/member/bell/bell.jpg",
-            "../assets/member/singh/singhnavjeet.jpg",
-            "../assets/member/marynanthicha/marynanthicha.jpg",
-            "../assets/member/nancy/nancy.jpg",
-            "../assets/member/ohm/ohm.jpg",
-            "../assets/member/diode/diode.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/bell/bell.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/singh/singhnavjeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/marynanthicha/marynanthicha.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/nancy/nancy.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/ohm/ohm.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/diode/diode.jpg"
         ],
         "date":"11/08/2566"
     },
@@ -212,22 +212,22 @@
         "description":"It was caused by wanting to eat together in a yoga class. So we can load it like this.",
         "location":"ย่างเนย บางแค",
         "locationUrl":"https://maps.app.goo.gl/tZKnN7tNS17PTx177",
-        "highlightImage":"../assets/event/9/LINE_ALBUM_189_230922_5.jpg",
+        "highlightImage":"https://pakorn-diode.github.io/yoga-Themafia/assets/event/9/LINE_ALBUM_189_230922_5.jpg",
         "images":[
-            "../assets/event/9/LINE_ALBUM_189_230922_5.jpg",
-            "../assets/event/9/IMG20230918192649.jpg",
-            "../assets/event/9/IMG20230918194128.jpg",
-            "../assets/event/9/IMG20230918194131.jpg",
-            "../assets/event/9/IMG20230918194132.jpg",
-            "../assets/event/9/LINE_ALBUM_189_230922_1.jpg",
-            "../assets/event/9/LINE_ALBUM_189_230922_2.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/9/LINE_ALBUM_189_230922_5.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/9/IMG20230918192649.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/9/IMG20230918194128.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/9/IMG20230918194131.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/9/IMG20230918194132.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/9/LINE_ALBUM_189_230922_1.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/9/LINE_ALBUM_189_230922_2.jpg"
         ],
         "join":[
-            "../assets/member/bell/bell.jpg",
-            "../assets/member/marynanthicha/marynanthicha.jpg",
-            "../assets/member/nancy/nancy.jpg",
-            "../assets/member/stampph/stampph.jpg",
-            "../assets/member/diode/diode.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/bell/bell.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/marynanthicha/marynanthicha.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/nancy/nancy.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/stampph/stampph.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/diode/diode.jpg"
         ],
         "date":"19/09/2566"
     },
@@ -236,24 +236,24 @@
         "description":"During the night we gathered together to play board games, werewolf games and uno, joined by Trainer Boom and his girlfriend and Ginny.",
         "location":"Sugar & Spice The Cafe",
         "locationUrl":"https://goo.gl/maps/JWKmg2eE4htz5GLF9",
-        "highlightImage":"../assets/event/10/IMG20231014220704.jpg",
+        "highlightImage":"https://pakorn-diode.github.io/yoga-Themafia/assets/event/10/IMG20231014220704.jpg",
         "images":[
-            "../assets/event/10/IMG20231014220704.jpg",
-            "../assets/event/10/IMG20231014220656.jpg",
-            "../assets/event/10/LINE_ALBUM_1410_231016_4.jpg",
-            "../assets/event/10/LINE_ALBUM_1410_231016_6.jpg",
-            "../assets/event/10/LINE_ALBUM_1410_231016_12.jpg",
-            "../assets/event/10/LINE_ALBUM_1410_231016_14.jpg",
-            "../assets/event/10/LINE_ALBUM_1410_231016_15.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/10/IMG20231014220704.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/10/IMG20231014220656.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/10/LINE_ALBUM_1410_231016_4.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/10/LINE_ALBUM_1410_231016_6.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/10/LINE_ALBUM_1410_231016_12.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/10/LINE_ALBUM_1410_231016_14.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/10/LINE_ALBUM_1410_231016_15.jpg"
         ],
         "join":[
-            "../assets/member/bell/bell.jpg",
-            "../assets/member/singh/singhnavjeet.jpg",
-            "../assets/member/millymeet/millymeet.jpg",
-            "../assets/member/marynanthicha/marynanthicha.jpg",
-            "../assets/member/nancy/nancy.jpg",
-            "../assets/member/ohm/ohm.jpg",
-            "../assets/member/diode/diode.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/bell/bell.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/singh/singhnavjeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/millymeet/millymeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/marynanthicha/marynanthicha.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/nancy/nancy.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/ohm/ohm.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/diode/diode.jpg"
         ],
         "date":"14/10/2566"
     },
@@ -262,24 +262,24 @@
         "description":"Before throwing Jasmeet's birthday party with cool ice cream cake, the 4(3) of us ate 18 pieces of Bonchon Chicken.",
         "location":"The Circle Ratchapruk",
         "locationUrl":"https://maps.app.goo.gl/odKZ2x1w4F7JkwVE6",
-        "highlightImage":"../assets/event/11/0775E0E4-9BF9-440D-8FE4-91FAC1D3E15A.jpg",
+        "highlightImage":"https://pakorn-diode.github.io/yoga-Themafia/assets/event/11/0775E0E4-9BF9-440D-8FE4-91FAC1D3E15A.jpg",
         "images":[
             "./assets/event/11/0775E0E4-9BF9-440D-8FE4-91FAC1D3E15A.jpg",
-            "../assets/event/11/BDD2FB55-38EC-45D2-B89D-3A1C18F2F841.jpg",
-            "../assets/event/11/IMG20231222200357_5_0.jpg",
-            "../assets/event/11/IMG20231222200415_3_0.jpg",
-            "../assets/event/11/IMG20231222200603_2_0.jpg",
-            "../assets/event/11/IMG20231222200611_6_0.jpg",
-            "../assets/event/11/IMG20231222200624_7_0.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/11/BDD2FB55-38EC-45D2-B89D-3A1C18F2F841.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/11/IMG20231222200357_5_0.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/11/IMG20231222200415_3_0.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/11/IMG20231222200603_2_0.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/11/IMG20231222200611_6_0.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/event/11/IMG20231222200624_7_0.jpg"
         ],
         "join":[
-            "../assets/member/bell/bell.jpg",
-            "../assets/member/singh/singhnavjeet.jpg",
-            "../assets/member/millymeet/millymeet.jpg",
-            "../assets/member/marynanthicha/marynanthicha.jpg",
-            "../assets/member/nancy/nancy.jpg",
-            "../assets/member/ohm/ohm.jpg",
-            "../assets/member/diode/diode.jpg"
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/bell/bell.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/singh/singhnavjeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/millymeet/millymeet.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/marynanthicha/marynanthicha.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/nancy/nancy.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/ohm/ohm.jpg",
+            "https://pakorn-diode.github.io/yoga-Themafia/assets/member/diode/diode.jpg"
         ],
         "date":"22/12/2566"
     }
