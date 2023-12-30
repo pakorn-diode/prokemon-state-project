@@ -3,7 +3,7 @@
         "id": "1",
         "name": "jarwa.belle",
         "detail":"Tinker JingleBelle Yoga Instructor Pilates Instructor Muffin baker",
-        "profile":"https://pakorn-diode.github.io/prokemon-state-project/assets/member/bell/bell.jpg",
+        "profile":"https://pakorn-diode.github.io/yoga-Themafiaassets/member/bell/bell.jpg",
         "bg":"",
         "tel": "",
         "fb": {
@@ -20,7 +20,7 @@
         "id": "2",
         "name": "singhnavjeet",
         "detail":"Navjeet Singh 🖖🏽🐾🔴⚪️ he/him father of @lifeofbacardi | @fcbayern fanatic",
-        "profile":"https://pakorn-diode.github.io/prokemon-state-project/assets/member/singh/singhnavjeet.jpg",
+        "profile":"https://pakorn-diode.github.io/yoga-Themafiaassets/member/singh/singhnavjeet.jpg",
         "bg":"",
         "tel": "",
         "fb": {
@@ -37,7 +37,7 @@
         "id": "3",
         "name": "millymeet",
         "detail":"Jasmeet 💕 🇹🇭🇮🇳Bollywood Diwani 💃🏻🎤 ✈️ Ex: Thaivietjet SCC batch 10 Snapchat: millymeet",
-        "profile":"https://pakorn-diode.github.io/prokemon-state-project/assets/member/millymeet/millymeet.jpg",
+        "profile":"https://pakorn-diode.github.io/yoga-Themafiaassets/member/millymeet/millymeet.jpg",
         "bg":"",
         "tel": "",
         "fb": {
@@ -48,13 +48,13 @@
             "name": "millymeet",
             "link": "https://www.instagram.com/millymeet/"
         },
-        "birthday": "23/12/199X"
+        "birthday": "22/12/199X"
     },
     {
         "id": "4",
         "name": "marynanthicha",
         "detail":"Mary Nanthicha",
-        "profile":"https://pakorn-diode.github.io/prokemon-state-project/assets/member/marynanthicha/marynanthicha.jpg",
+        "profile":"https://pakorn-diode.github.io/yoga-Themafiaassets/member/marynanthicha/marynanthicha.jpg",
         "bg":"",
         "tel": "",
         "fb": {
@@ -65,13 +65,13 @@
             "name": "marynanthicha",
             "link": "https://www.instagram.com/marynanthicha/"
         },
-        "birthday": "15/08/198X"
+        "birthday": "13/08/198X"
     },
     {
         "id": "5",
-        "name": "nancytjtr",
+        "name": "nancy",
         "detail":"Nancy Chawla Nan I run to add life to my days 🌈❤️ ⏱ 1k:4:22 ~ 5k:24:27 ~ 10k:49:02 ~ 21K:1:45 ~ 42k:4:15 ~ 60k 7:19:18 ⏱ www.facebook.com/nancy.c.gambhir",
-        "profile":"https://pakorn-diode.github.io/prokemon-state-project/assets/member/nancy/nancy.jpg",
+        "profile":"https://pakorn-diode.github.io/yoga-Themafiaassets/member/nancy/nancy.jpg",
         "bg":"",
         "tel": "",
         "fb": {
@@ -82,13 +82,13 @@
             "name": "nancytjtr",
             "link": "https://www.instagram.com/nancytjtr/"
         },
-        "birthday": "23/12/19XX"
+        "birthday": "1/12/19XX"
     },
     {
         "id": "6",
         "name": "_stampph",
         "detail":"2 X X 1 🦅 instagram.com/intirarodduang",
-        "profile":"https://pakorn-diode.github.io/prokemon-state-project/assets/member/stampph/stampph.jpg",
+        "profile":"https://pakorn-diode.github.io/yoga-Themafiaassets/member/stampph/stampph.jpg",
         "bg":"",
         "tel": "",
         "fb": {
@@ -105,7 +105,7 @@
         "id": "7",
         "name": "ohmm.prm",
         "detail":"Ohm Poramet | 2000 | Bangkok, Thailand | | TP 122 | KU 78 | For work : 0656496456 (k. Bee)",
-        "profile":"https://pakorn-diode.github.io/prokemon-state-project/assets/member/ohm/ohm.jpg",
+        "profile":"https://pakorn-diode.github.io/yoga-Themafiaassets/member/ohm/ohm.jpg",
         "bg":"",
         "tel": "",
         "fb": {
@@ -122,7 +122,7 @@
         "id": "8",
         "name": "pakorndiode",
         "detail":"Diode Sillapaprapha",
-        "profile":"https://pakorn-diode.github.io/prokemon-state-project/assets/member/diode/diode.jpg",
+        "profile":"https://pakorn-diode.github.io/yoga-Themafiaassets/member/diode/diode.jpg",
         "bg":"",
         "tel": "",
         "fb": {
@@ -134,5 +134,22 @@
             "link": "https://www.instagram.com/pakorndiode/"
         },
         "birthday": "06/12/2001"
+    },
+    {
+        "id": "9",
+        "name": "veenalaveena",
+        "detail":"Laveena 🇹🇭🇮🇳",
+        "profile":"https://pakorn-diode.github.io/yoga-Themafiaassets/member/veenalaveena/veenalaveena.jpg",
+        "bg":"",
+        "tel": "",
+        "fb": {
+            "name": "",
+            "link": ""
+        },
+        "ig": {
+            "name": "veenalaveena",
+            "link": "https://www.instagram.com/veenalaveena/"
+        },
+        "birthday": "??/??/????"
     }
 ]

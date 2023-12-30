@@ -93,6 +93,14 @@ GPLv3
 
 lightgallery/angular/13
 
+lightgallery/plugins/autoplay
+
+lightgallery/plugins/thumbnail
+
+lightgallery/plugins/video
+
+lightgallery/plugins/vimeoThumbnail
+
 lightgallery/plugins/zoom
 
 ngx-slickjs
