@@ -15,13 +15,14 @@
             </div>
         </div>
         <div class="relative h-[29rem] w-full bg-transparent xs:flex md:hidden">
-            <select #member [value]="1" (change)="onSelectMember(member.value)" class="absolute w-[50%] outline-0 right-[3%] bg-transparent text-white cursor-pointer text-2xl ">
+            <img class="absolute right-[4%] top-1 h-6 w-6" src="https://cdn-icons-png.flaticon.com/512/3580/3580091.png" alt="enter">
+            <select #member [value]="1" (change)="onSelectMember(member.value)" class="absolute w-auto outline-0 right-[3%] bg-transparent text-white cursor-pointer text-2xl border border-emerald-300 rounded-md">
                 <option *ngFor="let items of profileList" [value]="items.name" class="text-black">{{items.name}}</option>
             </select>
         </div>
         <div *ngFor="let members of memberList">
             <div class="flex justify-center bg-transparent xl:h-[80%] w-[27%] xs:min-w-[20rem] lg:min-w-[30rem] absolute z-20 right-[35%] md:right-[30%] xl:right-[36%] top-[8%]">
-                <img class="w-full lg:h-[105vh] xl:h-[80vh]" src="{{members.picture}}" alt="{{member.name}}" >
+                <img class="w-full h-full md:h-[105vh] xl:h-[80vh]" src="{{members.picture}}" alt="{{member.name}}" >
             </div>
             <div class="text-white h-full w-[9.1rem] md:w-[20rem] absolute right-[3%] top-[15%] md:top-[30%] xl:right-[15%] xl:top-[20%]">
                 <div class="grid gap-y-3">
@@ -49,20 +50,20 @@
 <div class="xs:h-[90dvh] md:h-[100vh] w-full relative">
     <div class="z-30 absolute top-0 md:left-[8%] xl:left-[19%] md:h-[105vh] xl:h-[100%] w-[0.5px] bg-[#dddddd]"></div>
     <div class="relative grid grid-cols-1 lg:grid-cols-4 xs:gap-y-4 md:gap-y-44 lg:gap-4 xs:left-[3%] md:left-[9%] xl:left-[20%] xs:top-[5%] lg:top-[18%] w-[85%] xl:w-[66.8%] h-full bg-white m-0">
-        <div class="xs:text-3xl md:text-5xl grid grid-cols-4 gap-y-8 lg:gap-x-24 items-stretch max-h-40 lg:ml-12">
+        <div class="xs:text-3xl md:text-5xl grid grid-cols-4 gap-y-8 lg:gap-x-24 items-start lg:ml-12 md:max-h-40">
             <div class="z-0 lg:absolute top-[1%] left-[-1%] xl:left-[-1.5%] lg:w-full h-[0.5px] col-span-4">
                 <label class="uppercase font-extrabold flex items-center">power <em class="bx bxs-circle text-lg mx-2 text-[#d19a3b]"></em> abilities</label>
                 <hr class="mt-3 h-9 xs:w-full">
             </div>
-            <ng-container *ngFor="let abilities of abilityList">
-                <div class="xs:mt-16 lg:mt-24">
-                    <div class="border shadow rounded cursor-pointer p-3 md:w-20 md:h-20 hover:bg-[#d19a3b] transition-all duration-500" (click)="onSelectAbilities(abilities.title)">
+            <ng-container *ngFor="let abilities of abilityList; let i =index">
+                <div class="xs:mt-5 md:mt-12 lg:mt-24">
+                    <div id="{{i+1}}" [classList]="i == 0 ? 'bg-[#d19a3b] border shadow rounded cursor-pointer p-3 md:w-20 md:h-20 hover:bg-[#d19a3b] transition-all duration-500' : 'bg-[#ffffff] border shadow rounded cursor-pointer p-3 md:w-20 md:h-20 hover:bg-[#d19a3b] transition-all duration-500'" (click)="onSelectAbilities(abilities.title); changeColorAbilities(i+1)">
                         <img src="{{abilities.src}}" alt="{{abilities.title}}">
                     </div>
                 </div>
             </ng-container>
             <ng-container *ngFor="let item of selectAbilityList">
-                <div class="text-lg md:text-xl col-span-4 select-none">
+                <div class="relative top-0 text-lg md:text-xl col-span-4 select-none h-auto">
                     <h1 class="font-bold uppercase">{{item.title}}</h1>
                     <hr class="my-3">
                     <label class="text-sm md:text-lg font-semibold text-gray-400">
@@ -71,10 +72,18 @@
                 </div>
             </ng-container>
         </div>
-        <div class="xs:mt-52 md:m-0 lg:col-start-3 lg:col-span-2 z-10">
-            <video preload="true" loop="" playsinline="" poster="" data-testid="abilities:video">
-                <source src="https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt29f3571576a3937f/5ecad7e5e2a559592eb0c1b0/Cypher_X_v001_web.mp4" type="video/mp4">
-            </video>
+        <div class=" md:m-0 lg:col-start-3 lg:col-span-2 z-10">
+            <ng-container *ngFor="let item of selectAbilityList">
+                <ng-container *ngIf="item.simple.split('.').pop() =='mp4'">
+                    <video class="max-h-[20rem] w-full rounded-lg object-cover" [muted]="'muted'" loop autoplay>
+                        <source src="{{item.simple}}" type="video/mp4" default>
+                        Your browser does not support the video tag.
+                    </video>
+                </ng-container>
+                <ng-container *ngIf="item.simple.split('.').pop() !='mp4'">
+                    <img class="max-h-[20rem] w-full rounded-lg object-cover" src="{{item.simple}}" alt="" />
+                </ng-container>
+            </ng-container>
         </div>
     </div>
 </div>

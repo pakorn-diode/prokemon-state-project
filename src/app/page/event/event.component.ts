@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import * as event from '../../../assets/JSON/event.json';
-import * as member from '../../../assets/JSON/member.json';
+import * as profile from '../../../assets/JSON/profile.json';
+import lgZoom from 'lightgallery/plugins/zoom';
+import lgThumbnail from 'lightgallery/plugins/thumbnail';
+import { BeforeSlideDetail } from 'lightgallery/lg-events';
+import { LightGalleryAllSettings } from 'lightgallery/lg-settings';
 
 @Component({
   selector: 'app-event',
@@ -12,18 +16,18 @@ export class EventComponent implements OnInit {
   public objectEvent: any;
   public objectMember: any;
   public eventList: Array<any> = new Array<any>();
-  public memberList: Array<any> = new Array<any>();
+  public profileList: Array<any> = new Array<any>();
 
   constructor() { }
 
   public ngOnInit(): void {
     this.textObserver();
     this.objectEvent = event;
-    this.objectMember = member;
+    this.objectMember = profile;
     this.eventList = this.objectEvent.default;
-    this.memberList = this.objectMember.default;
+    this.profileList = this.objectMember.default;
     console.log('eventList', this.eventList);
-    console.log('memberList', this.memberList);
+    console.log('profileList', this.profileList);
     
   }
 
@@ -42,5 +46,20 @@ export class EventComponent implements OnInit {
     const hiddenElement = document.querySelectorAll('.hidden-text');
     hiddenElement.forEach((el) => observer.observe(el));
   }
+
+  settings:Partial<LightGalleryAllSettings> = {
+    counter: true,
+    controls: true,
+    animateThumb:true,
+    resetScrollPosition:true,
+    plugins: [lgZoom,lgThumbnail],
+    thumbnail:true
+
+  };
+
+  onBeforeSlide = (detail: BeforeSlideDetail): void => {
+    const { index, prevIndex } = detail;
+    console.log(index, prevIndex);
+  };
 
 }

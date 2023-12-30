@@ -42,6 +42,8 @@ export class MemberComponent implements OnInit {
 
   public bg: string = 'h-[80vh] bg-black transition-all duration-300 ';
   public bgPy8: string = 'bg-black';
+
+  public power:boolean = true;
   
 
   ngOnInit(): void {
@@ -50,7 +52,6 @@ export class MemberComponent implements OnInit {
     this.profileList = this.profile.default;
     this.memberList = this.member.default;
     console.log('memberList',this.memberList);
-    
     this.onSelectMember('jarwa.belle');
   }
 
@@ -67,17 +68,43 @@ export class MemberComponent implements OnInit {
     
     this.onSelectAbilities(this.abilityList[0].title)
     this.highlightList = this.memberList[0].highlight;
-    
-    // const bg = document.getElementById('bgBg') as HTMLElement;
-    // bg.classList.add('bg-' + this.memberList[0].color )
-    // console.log(bg);
-    
   }
 
   public onSelectAbilities(ability:string): void{
     console.log('onSelectAbilities',ability);
     this.selectAbilityList = this.abilityList.filter((data:any)=> data.title == ability)
     console.log('selectAbilityList',this.selectAbilityList);
-    
+  
+    if (true) {
+      this.power =false;
+    }
+  }
+
+  changeColorAbilities(id:any): void{
+    const one = document.getElementById('1') as HTMLElement;
+    const two = document.getElementById('2') as HTMLElement;
+    const three = document.getElementById('3') as HTMLElement;
+    const four  = document.getElementById('4') as HTMLElement;
+    if (id == '2') {
+      one.style.backgroundColor = 'white';
+      two.style.backgroundColor = '#d19a3b';
+      three.style.backgroundColor = 'white';
+      four.style.backgroundColor = 'white';
+    } else if (id == '3') {
+      one.style.backgroundColor = 'white';
+      two.style.backgroundColor = 'white';
+      three.style.backgroundColor = '#d19a3b';
+      four.style.backgroundColor = 'white';
+    } else if (id == '4') {
+      one.style.backgroundColor = 'white';
+      two.style.backgroundColor = 'white';
+      three.style.backgroundColor = 'white';
+      four.style.backgroundColor = '#d19a3b';
+    } else {
+      one.style.backgroundColor = '#d19a3b';
+      two.style.backgroundColor = 'white';
+      three.style.backgroundColor = 'white';
+      four.style.backgroundColor = 'white';
+    }
   }
 }

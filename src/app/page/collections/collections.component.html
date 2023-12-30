@@ -1,15 +1,24 @@
 <div class="py-8 bg-black"></div>
 <div class=" bg-black">
     <div class="container mx-auto">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <lightgallery [settings]="settings" [onBeforeSlide]="onBeforeSlide"  class="grid gap-4 items-stretch" *ngFor="let item of collectionList; let i = index">
-                <ng-container *ngFor="let data of item.data; let j = index">
-                    <a href="{{data.src}}" class="gallery-item" attr.data-sub-html="{{data.dataSubHtml}}"> 
-                        <img class="img-responsive xs:max-h-44 md:max-h-full h-full w-full rounded-lg" src="{{data.src}}" alt="" />
+        <lightgallery [settings]="settings" [onBeforeSlide]="onBeforeSlide"  class="grid grid-cols-2 md:grid-cols-4 gap-2" >
+            <ng-container *ngFor="let item of collectionList; let i = index">
+                <ng-container *ngIf="item.src.split('.').pop() =='mp4'">
+                    <a class="gallery-item" attr.data-sub-html="{{item.dataSubHtml}}"
+                    attr.data-video='{"source": [{"src": "{{item.src}}", "type":"video/mp4"}], "attributes": {"preload": false, "controls": true}}'> 
+                        <video class="img-responsive xs:max-h-44 md:max-h-[32rem] h-full w-full rounded-lg object-cover" [muted]="'muted'" loop autoplay>
+                            <source src="{{item.src}}" type="video/mp4" default>
+                            Your browser does not support the video tag.
+                        </video>
                     </a>
                 </ng-container>
-            </lightgallery>
-        </div>
+                <ng-container *ngIf="item.src.split('.').pop() !='mp4'">
+                    <a href="{{item.src}}" class="gallery-item" attr.data-sub-html="{{item.dataSubHtml}}"> 
+                        <img class="img-responsive xs:max-h-44 md:max-h-[32rem] h-full w-full rounded-lg object-cover" src="{{item.src}}" alt="" />
+                    </a>
+                </ng-container>
+            </ng-container>
+        </lightgallery>
         <!-- <div class="grid grid-cols-2 md:grid-cols-4 gap-4 items-stretch">
             <ng-container  *ngFor="let item of collectionList; let i = index">
                 <ng-container  *ngFor="let data of item.data; let j = index">

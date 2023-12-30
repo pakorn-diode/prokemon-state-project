@@ -3,8 +3,14 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lightgallery.css');
-@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lg-zoom.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/css/lightgallery.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/css/lightgallery-bundle.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/css/lightgallery-bundle.min.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/css/lightgallery-core.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/css/lg-autoplay.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/css/lg-zoom.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/css/lg-thumbnail.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.0/css/lg-video.css');
 
 body{
     overflow-x: hidden;
